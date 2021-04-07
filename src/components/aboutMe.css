@@ -1,9 +1,18 @@
 .aboutMeDiv{
     background-color: rgb(24 25 26);
 }
+.cardTitle{
+    margin: 15px auto auto 30px;
+}
 .memImage{
     border: 3px solid black;
     border-radius: 15px;
     width: 100%;
     margin: 30px 15px 30px 0px;
+}
+.aboutMeCard{
+    margin: 50px auto 50px 30px;
+}
+.cardHeader{
+    text-align: right;
 }
