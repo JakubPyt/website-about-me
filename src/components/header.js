@@ -1,13 +1,16 @@
 import React from 'react';
-
+import mainImage from "../images/main.jpg";
 class Header extends React.Component{
     constructor(props){
         super(props);
     }
     render(){
+        const imageStyle = {
+            width: '100%'
+        } 
         return(
             <div>
-                <h1>Hello World from header!</h1>
+                <img src={mainImage} style={imageStyle}/>
             </div>
         )
     }
