@@ -23,7 +23,10 @@ class SoftSkills extends React.Component{
                                 <li>Dowodzenie około 20 osobową grupą młodzieżową przez okres 3 lat(2015-2018)</li>
                                 <li>Dowodzenie 16 osobową grupą młodzieżową od 2018 roku, razem z którą przeprowadzaliśmy kilka znaczących projektów, takich jak remont domu dla starszej, ubogiej pani, akcje dostarczania paczek kombatantom w naszych okolicach. Tą grupą wciąż dowodzę, a o naszych przedsięwzięciach można doczytać na naszym instagramie:</li>
                             </ul>
+                            <div className="center">
                                 <a href="https://www.instagram.com/druzyny_z_pradoliny/"><AiFillInstagram style={{color: "orange", fontSize: "2.3em"}}/></a>
+                                <p>#druzyny_z_pradoliny</p>
+                            </div>
                         </Card.Body>
                         </Card>
                     </Col>
