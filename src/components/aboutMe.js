@@ -1,5 +1,6 @@
 import React from 'react';
 import memImage from "../images/mem.jpg";
+import './aboutMe.css';
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -8,6 +9,8 @@ class AboutMe extends React.Component{
     render(){
         return(
             <img src={memImage}/>
+            <div className="aboutMeDiv" >
+            </div>
         )
     }
 }
