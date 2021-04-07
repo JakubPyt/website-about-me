@@ -14,6 +14,7 @@ class AboutMe extends React.Component{
                     <Container>
                         <Row>
                             <Col sm={4} >
+                                <img className="memImage" src={memImage} />
                             </Col>
                             <Col sm={8}>
                             </Col>
