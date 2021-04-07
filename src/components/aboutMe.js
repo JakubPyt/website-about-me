@@ -1,4 +1,5 @@
 import React from 'react';
+import memImage from "../images/mem.jpg";
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -6,7 +7,7 @@ class AboutMe extends React.Component{
     }
     render(){
         return(
-            <h1>Hello World from aboutMe</h1>
+            <img src={memImage}/>
         )
     }
 }
