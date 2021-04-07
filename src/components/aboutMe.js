@@ -1,6 +1,7 @@
 import React from 'react';
 import memImage from "../images/mem.jpg";
 import './aboutMe.css';
+import {Container, Row, Col, Card} from 'react-bootstrap';
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -10,6 +11,15 @@ class AboutMe extends React.Component{
         return(
             <img src={memImage}/>
             <div className="aboutMeDiv" >
+                    <Container>
+                        <Row>
+                            <Col sm={4} >
+                            </Col>
+                            <Col sm={8}>
+                            </Col>
+                        </Row>
+                    </Container>
+                
             </div>
         )
     }
