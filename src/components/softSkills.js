@@ -1,4 +1,5 @@
 import React from 'react';
+import './softSkills.css';
 import meImage from '../images/me.jpg';
 import {Card, Col, Row} from 'react-bootstrap';
 class SoftSkills extends React.Component{

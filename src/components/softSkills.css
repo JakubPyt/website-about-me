@@ -1,0 +1,12 @@
+.softSkillsDiv{
+    background-color: rgb(24 25 26);
+}
+.softSkillsCard{
+    margin: 30px 30px 30px 30px;
+}
+.cardHeader{
+    text-align: right;
+}
+.cardBody{
+    margin: auto 50px auto 50px;
+}
