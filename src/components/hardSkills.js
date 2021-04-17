@@ -1,5 +1,15 @@
 import React from "react";
 import "./hardSkills.css";
+//Import icons
+import { Button } from "react-bootstrap";
+import { FaPython } from "react-icons/fa";
+import { SiCsharp } from "react-icons/si";
+import { FiDatabase } from "react-icons/fi";
+import { DiGitBranch } from "react-icons/di";
+import { GiSpiderWeb } from "react-icons/gi";
+import { BsClipboardData } from "react-icons/bs";
+import { HardSkillsCertificates } from "./hardSkills-certificates";
+import { HardSkillsChallenges } from "./hardSkills-challenges";
 
 class HardSkills extends React.Component {
     constructor(props) {
