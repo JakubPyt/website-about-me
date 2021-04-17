@@ -15,6 +15,7 @@ import Udemy_CSharp from "../images/certificates/Udemy_CSharp.jpg";
 import Udemy_FullStack from "../images/certificates/Udemy_FullStack.jpg";
 import Udemy_Git from "../images/certificates/Udemy_Git.jpg";
 import { Card } from "react-bootstrap";
+import './hardSkills-certificates.css';
 class HardSkillsCertificates extends React.Component{
     constructor(props){
         super(props);
