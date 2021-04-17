@@ -13,3 +13,12 @@
 Button{
     margin: 1em 2em 0em 2em;
 }
+.placeForAchivements{
+    background-color: rgb(73, 72, 72);
+    margin: 0em 2em 0em 2em;
+    border-radius: 0em 0em 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0em;
+}
