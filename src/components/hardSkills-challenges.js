@@ -49,6 +49,20 @@ class HardSkillsChallenges extends React.Component {
                 },
             ]
         }
+    }
+    //Func generate card with data about solved challenges by type
+    createChallengesCard(challengesAbout){
+        return (
+            <ListGroup className="listChallenges" >
+                <ListGroupItem className="titleListGroup"><h5>Rozwiązane wyzwania programistyczne na stronach:</h5> </ListGroupItem>
+                {challengesAbout.map((challenges) => (
+                    <ListGroupItem variant="dark"><b>{challenges.website}</b>: {challenges.solvedChallenges}
+                        {challenges.type != null ? <p className="pType">({challenges.type})</p>  : null}
+                    </ListGroupItem>
+                ))}
+            </ListGroup>
+        )
+    }
         }
     render(){
         return(
