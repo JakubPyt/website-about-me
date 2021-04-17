@@ -1,0 +1,17 @@
+.listChallenges{
+    width: 15em;
+    margin: 1em 0.3em 1em 1.7em;
+}
+.listChallenges h5{
+    font-weight: bold;
+    color: rgb(59, 80, 46);
+}
+.pWebsite{
+    font-weight: bold;
+}
+.pType{
+    font-style: italic;
+}
+.titleListGroup{
+    background-color: rgb(96, 184, 8);
+}
