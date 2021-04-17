@@ -120,6 +120,23 @@ class HardSkillsCertificates extends React.Component{
             ],
         }
     }
+    //Function generate div with certificates cards by type 
+    createCards(certificates) {
+        return (
+            <div className="divWithCertificates">
+                {certificates.map((cert) => (
+                    <a href={cert.link}>
+                        <Card key={cert.name}>
+                            <Card.Img src={cert.pic} variant="top" />
+                            <Card.Body>
+                                <Card.Title>{cert.name}</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </a>
+                ))}
+            </div>
+        );
+    };
 
     render() {
         return(
