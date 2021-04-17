@@ -1,5 +1,7 @@
 import React from "react";
 import { ListGroupItem, ListGroup } from "react-bootstrap";
+import './hardSkills-challenges.css';
+
 class HardSkillsChallenges extends React.Component {
     constructor(props){
         super(props);
