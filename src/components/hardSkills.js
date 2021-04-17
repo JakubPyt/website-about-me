@@ -4,6 +4,15 @@ import "./hardSkills.css";
 class HardSkills extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            //Is display containers with certificates
+            openPython: false,
+            openCsharp: false,
+            openDB: false,
+            openGit: false,
+            openWebDev: false,
+            openDataScience: false,
+        };
     }
 
     render() {
