@@ -5,7 +5,6 @@ import {HardSkills} from './components/hardSkills';
 
 function App() {
   return (
-    <div className="App">
     <div className="">
       <h1>Hello World!</h1>
       <HardSkills/>
