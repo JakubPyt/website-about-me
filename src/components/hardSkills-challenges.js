@@ -66,10 +66,26 @@ class HardSkillsChallenges extends React.Component {
             </ListGroup>
         )
     }
+    //Func call right func by type, to display it
+    renderSwitch(type){
+        switch(type){
+            case "Python":
+                return this.createChallengesCard(this.state.challengesPython);
+            case "Csharp":
+                return this.createChallengesCard(this.state.challengesCsharp);
+            case "Databases":
+                return this.createChallengesCard(this.state.challengesDB);
+            default:
+                return null;
         }
+    }
     render(){
         return(
             <div>
+                {/* Type of solved challenges is download from hardSkils, then renderSwitch chooses 
+                right function, createChallengesCard generate card and then, card is display in hardSkills Component
+                */}
+                {this.renderSwitch(this.props.type)}
             </div>
         )
     }
