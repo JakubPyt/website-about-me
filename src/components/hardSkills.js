@@ -55,12 +55,20 @@ class HardSkills extends React.Component {
         return (
             <div className="hardSkillsDiv">
                 <h1>Umiejętności twarde</h1>
+                {/* For each type there is button, which call func toggleContainer for turn on place for 
+                certificates and then call func for display cards with certificates and solved challenges */}
                 <Button onClick={this.toggleContainerPython.bind(this)} variant="success"> Python <FaPython /> </Button>
+                {this.state.openPython === true ? this.renderContainer("Python") : null} 
                 <Button onClick={this.toggleContainerCsharp.bind(this)} variant="success"> C# <SiCsharp /> </Button>
+                {this.state.openCsharp === true ? this.renderContainer("Csharp") : null}
                 <Button onClick={this.toggleContainerDB.bind(this)} variant="success"> Bazy danych <FiDatabase /> </Button>
+                {this.state.openDB === true ? this.renderContainer("Databases")  : null}
                 <Button onClick={this.toggleContainerGit.bind(this)} variant="success"> Git <DiGitBranch /> </Button>
+                {this.state.openGit === true ? this.renderContainer("Git")  : null}
                 <Button onClick={this.toggleContainerWebDev.bind(this)}variant="success"> Web Development <GiSpiderWeb /> </Button>
+                {this.state.openWebDev === true ? this.renderContainer("WebDev")  : null}
                 <Button onClick={this.toggleContainerDataScience.bind(this)} variant="success"> Data Science <BsClipboardData /> </Button>
+                {this.state.openDataScience === true ? this.renderContainer("DataScience")  : null}
             </div>
         );
     }
