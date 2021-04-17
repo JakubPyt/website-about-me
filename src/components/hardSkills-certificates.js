@@ -162,6 +162,10 @@ class HardSkillsCertificates extends React.Component{
     render() {
         return(
             <div>
+                {/* Type of certificates is download from hardSkils, then renderSwitch chooses 
+                right function, createCards generate div with cards and then, card is display in hardSkills Component
+                */}
+                {this.renderSwitch(this.props.type)}
             </div>
         )
     }
