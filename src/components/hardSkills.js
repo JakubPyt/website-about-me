@@ -48,6 +48,12 @@ class HardSkills extends React.Component {
         return (
             <div className="hardSkillsDiv">
                 <h1>Umiejętności twarde</h1>
+                <Button onClick={this.toggleContainerPython.bind(this)} variant="success"> Python <FaPython /> </Button>
+                <Button onClick={this.toggleContainerCsharp.bind(this)} variant="success"> C# <SiCsharp /> </Button>
+                <Button onClick={this.toggleContainerDB.bind(this)} variant="success"> Bazy danych <FiDatabase /> </Button>
+                <Button onClick={this.toggleContainerGit.bind(this)} variant="success"> Git <DiGitBranch /> </Button>
+                <Button onClick={this.toggleContainerWebDev.bind(this)}variant="success"> Web Development <GiSpiderWeb /> </Button>
+                <Button onClick={this.toggleContainerDataScience.bind(this)} variant="success"> Data Science <BsClipboardData /> </Button>
             </div>
         );
     }
