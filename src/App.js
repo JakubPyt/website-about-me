@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {Contact} from './components/contact';
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <h1>Hello World!</h1>
+      <Contact/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
