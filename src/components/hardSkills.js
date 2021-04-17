@@ -14,6 +14,25 @@ class HardSkills extends React.Component {
             openDataScience: false,
         };
     }
+    //Called func change state right state element for true or false  
+    toggleContainerPython() {
+        this.setState({ openPython: !this.state.openPython });
+    }
+    toggleContainerCsharp() {
+        this.setState({ openCsharp: !this.state.openCsharp });
+    }
+    toggleContainerDB() {
+        this.setState({ openDB: !this.state.openDB });
+    }
+    toggleContainerGit() {
+        this.setState({ openGit: !this.state.openGit });
+    }
+    toggleContainerWebDev() {
+        this.setState({ openWebDev: !this.state.openWebDev });
+    }
+    toggleContainerDataScience() {
+        this.setState({ openDataScience: !this.state.openDataScience });
+    }
 
     render() {
         return (
