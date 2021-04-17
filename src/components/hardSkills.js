@@ -47,6 +47,8 @@ class HardSkills extends React.Component {
     renderContainer(typeContainer) {
         return (
             <div className="placeForAchivements">
+                <HardSkillsCertificates type = {typeContainer} />
+                <HardSkillsChallenges type = {typeContainer} />
             </div>
         )
     }
