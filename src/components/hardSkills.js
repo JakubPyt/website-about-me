@@ -43,6 +43,13 @@ class HardSkills extends React.Component {
     toggleContainerDataScience() {
         this.setState({ openDataScience: !this.state.openDataScience });
     }
+    //Called func display achivements by type
+    renderContainer(typeContainer) {
+        return (
+            <div className="placeForAchivements">
+            </div>
+        )
+    }
 
     render() {
         return (
