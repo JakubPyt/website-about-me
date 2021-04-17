@@ -1,4 +1,5 @@
 import React from "react";
+import "./hardSkills.css";
 
 class HardSkills extends React.Component {
     constructor(props) {

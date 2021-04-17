@@ -1,0 +1,8 @@
+.hardSkillsDiv{
+    background-color: rgb(24 25 26);
+}
+.hardSkillsDiv h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
