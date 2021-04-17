@@ -139,6 +139,25 @@ class HardSkillsCertificates extends React.Component{
             </div>
         );
     };
+    //Func call right func by type, to display it
+    renderSwitch(type){
+        switch(type){
+            case "Python":
+                return this.createCards(this.state.certificatesPython);
+            case "Csharp":
+                return this.createCards(this.state.certificatesCsharp);
+            case "Databases":
+                return this.createCards(this.state.certificatesDB);
+            case "Git":
+                return this.createCards(this.state.certificatesGit);
+            case "WebDev":
+                return this.createCards(this.state.certificatesWebDev);
+            case "DataScience":
+                return this.createCards(this.state.certificatesDataScience);
+            default:
+                return null;
+        }
+    }
 
     render() {
         return(
