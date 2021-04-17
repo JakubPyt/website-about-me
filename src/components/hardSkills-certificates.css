@@ -1,3 +1,8 @@
+.divWithCertificates{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0em;
+}
 .card{
     text-decoration: none;
     max-width: 9em;

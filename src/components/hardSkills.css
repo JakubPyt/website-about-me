@@ -1,8 +1,15 @@
 .hardSkillsDiv{
     background-color: rgb(24 25 26);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em 1em 1em 1em;
 }
 .hardSkillsDiv h1{
     color: white;
     display: flex;
     justify-content: center;
+}
+Button{
+    margin: 1em 2em 0em 2em;
 }
