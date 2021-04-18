@@ -1,0 +1,25 @@
+.divWithCertificates{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0em;
+}
+.card{
+    text-decoration: none;
+    max-width: 9em;
+    background-color: #32383e;
+    margin: 1em 0.3em 1em 1.7em;
+    color: seashell;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #646464;
+}
+a{
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    cursor: default;
+}
+a:hover{
+    text-decoration: none;
+}
