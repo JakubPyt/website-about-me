@@ -14,16 +14,17 @@
     align-items: center;
     margin: 5px; 
 }
-a{
+.aIcon{
     color: black;
     background: linear-gradient(0deg,  #fff,rgb(192, 192, 192));
     border-radius: 50%;
     box-shadow: 0 10px 15px rgba(228, 227, 227, 0.5);
 }
-a:hover{
+.aIcon:hover{
     transform: scale(0.9, 0.9); 
     transition: 0.3s;
     box-shadow: 0 2px 5px rgba(180, 180, 180, 0.3);
+    cursor: pointer;
 }
 .circleForIcons{
     background: linear-gradient(0deg,rgb(192, 192, 192), #fff);

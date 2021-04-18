@@ -14,12 +14,12 @@
 .certificateCard:hover{
     background-color: #646464;
 }
-a{
+.aCertificate{
     text-decoration: none;
     height: fit-content;
     width: fit-content;
     cursor: default;
 }
-a:hover{
+.aCertificate:hover{
     text-decoration: none;
 }

@@ -127,7 +127,7 @@ class HardSkillsCertificates extends React.Component{
         return (
             <div className="divWithCertificates">
                 {certificates.map((cert) => (
-                    <a href={cert.link}>
+                    <a href={cert.link} className="aCertificate">
                         <Card className="certificateCard" key={cert.name}>
                             <Card.Img src={cert.pic} variant="top" />
                             <Card.Body>
