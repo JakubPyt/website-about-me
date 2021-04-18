@@ -4,6 +4,12 @@
     padding: 1% 0 0 0;
     text-align: center;
 }
+.singleProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; 
+}
 a{
     color: black;
     background: linear-gradient(0deg,  #fff,rgb(192, 192, 192));
