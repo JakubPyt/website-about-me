@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -7,6 +8,10 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
+        <Navbar fixed="top" bg="dark" variant="dark">
+          <Nav>
+          </Nav>
+        </Navbar>
       </div>
     );
   }
