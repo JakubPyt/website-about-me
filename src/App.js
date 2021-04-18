@@ -8,6 +8,7 @@ function App() {
     <div className="">
       <h1>Hello World!</h1>
       <HardSkills/>
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
