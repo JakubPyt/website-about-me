@@ -1,0 +1,22 @@
+.softSkillsDiv{
+    background-color: rgb(24 25 26);
+}
+.softSkillsCard{
+    margin: 30px 30px 30px 30px;
+}
+.meImage{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 100%;
+    margin: 30px 1px 30px 0px;
+}
+.cardHeader{
+    text-align: right;
+}
+.cardBody{
+    margin: auto 50px auto 50px;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
