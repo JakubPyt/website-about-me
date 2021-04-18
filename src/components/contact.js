@@ -14,6 +14,24 @@ class Contact extends React.Component {
             <div className="contactDiv">
                 <h1>Kontakt</h1>
                 <p>Zapraszam do kontaktu na profilu LinkedIn</p>
+                            <div className="circleForIcons">
+                                <AiFillLinkedin className="icon"/>
+                            </div>
+                            <div className="circleForIcons">
+                                <AiFillGithub className="icon"/>
+                            </div>
+                            <div className="circleForIcons">
+                                <AiOutlineSlack className="icon"/>
+                            </div>
+                            <div className="circleForIcons">
+                                <FaFreeCodeCamp className="icon"/>
+                            </div>
+                            <div className="circleForIcons">
+                                <SiHackerrank className="icon"/>
+                            </div>
+                            <div className="circleForIcons">
+                                <SiCodewars className="icon"/>
+                            </div>
             </div>
         );
     }
