@@ -10,6 +10,7 @@ class Contact extends React.Component {
         return (
             <div className="contactDiv">
                 <h1>Kontakt</h1>
+                <p>Zapraszam do kontaktu na profilu LinkedIn</p>
             </div>
         );
     }
