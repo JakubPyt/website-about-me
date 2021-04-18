@@ -9,7 +9,7 @@ class Header extends React.Component{
             width: '100%'
         } 
         return(
-            <div>
+            <div id="homeID">
                 <img src={mainImage} style={imageStyle}/>
             </div>
         )

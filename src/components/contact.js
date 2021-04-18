@@ -11,7 +11,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div className="contactDiv">
+            <div className="contactDiv" id="contactID">
                 <h1>Kontakt</h1>
                 <p>Zapraszam do kontaktu na profilu LinkedIn</p>
                 <div className="divForContactIcons">

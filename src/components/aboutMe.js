@@ -9,7 +9,7 @@ class AboutMe extends React.Component{
     }
     render(){
         return(
-            <div className="aboutMeDiv" >
+            <div className="aboutMeDiv" id="aboutMeID">
                     <Container>
                         <Row>
                             <Col sm={4} >

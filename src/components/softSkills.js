@@ -9,7 +9,7 @@ class SoftSkills extends React.Component{
     }
     render(){
         return(
-            <div className="softSkillsDiv">
+            <div className="softSkillsDiv" id="softSkillsID">
                 <Row>
                     <Col sm={8}>
                         <Card className="softSkillsCard" bg="dark" text="light">

@@ -55,7 +55,7 @@ class HardSkills extends React.Component {
 
     render() {
         return (
-            <div className="hardSkillsDiv">
+            <div className="hardSkillsDiv" id="hardSkillsID">
                 <h1>Umiejętności twarde</h1>
                 {/* For each type there is button, which call func toggleContainer for turn on place for 
                 certificates and then call func for display cards with certificates and solved challenges */}
