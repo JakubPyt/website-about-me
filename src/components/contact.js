@@ -14,6 +14,7 @@ class Contact extends React.Component {
             <div className="contactDiv">
                 <h1>Kontakt</h1>
                 <p>Zapraszam do kontaktu na profilu LinkedIn</p>
+                <div className="divForContactIcons">
                     <div className="singleProfile">
                         <a href="https://www.linkedin.com/in/jakub-pyt-9449b4204/">
                             <div className="circleForIcons">
@@ -62,6 +63,7 @@ class Contact extends React.Component {
                         </a>
                         Codewars
                     </div>
+                </div>
             </div>
         );
     }

@@ -4,6 +4,10 @@
     padding: 1% 0 0 0;
     text-align: center;
 }
+.divForContactIcons{
+    display: flex;
+    justify-content: space-evenly;
+}
 .singleProfile{
     display: flex;
     flex-direction: column;
