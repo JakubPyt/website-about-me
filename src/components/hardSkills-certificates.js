@@ -174,4 +174,3 @@ class HardSkillsCertificates extends React.Component {
   }
 }
 export { HardSkillsCertificates };
->>>>>>> Stashed changes
