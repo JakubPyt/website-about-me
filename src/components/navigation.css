@@ -1,0 +1,25 @@
+/* Main styles for component */
+.navbar{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+    display: flex;
+    z-index: 100;
+    font-family: var(--main-font);
+}
+/* Other elements of navbar */
+.navbarItems{
+    display: flex;
+}
+/* Every single element of navbar */
+.navbarItem{
+    margin: 1em 1em 0.5em 1em;
+    color: gray;
+    text-decoration: none;
+}
+.navbarItem:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
+import "./navigation.css";
 
 class Navigation extends React.Component {
   constructor(props) {
