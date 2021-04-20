@@ -6,10 +6,49 @@ import "./navigation.css";
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      heightHeader: 0, //Height of header image
+      heightNavbar: 0,
+      opacity: 0,
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+  /* Background of navbar is dynamically displayed. How it works?
+        In componentDidMount:
+            There is a clientHeight, which gets height of header image and height of navbar div(without backgorund)
+            Then height is save to state
+            Also there is event listener, which call handleScroll func
+        In handleScroll:
+            There is dynamically calculated opacity 
+            Then, opacity is save to state
+        In render:
+            Div with className navbarBackground have dynamically assigned opacity
+            navbarBackground should been dislayed when it is in half of header image
+             */
+  handleScroll() {
+    const opacity = (window.pageYOffset - this.state.heightHeader * 5) / 100;
+    this.setState({ opacity });
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+    const heightHeader = document.getElementById("header").clientHeight;
+    const heightNavbar = document.getElementById("navbar").clientHeight;
+    this.setState({ heightHeader, heightNavbar });
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
   }
   render() {
     return (
       <div>
+        {/* navbarBackground has dynamically calculated opacity */}
+        <div
+          className="navbarBackground"
+          style={{
+            height: this.state.heightNavbar,
+            opacity: this.state.opacity,
+          }}
+        ></div>
         {/* Main part of navbar 
                 All links has smooth scroll to name elements of components
         */}

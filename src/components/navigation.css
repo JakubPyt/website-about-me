@@ -8,6 +8,15 @@
     z-index: 100;
     font-family: var(--main-font);
 }
+/* Styles for background of navbar(displayed in half of header image) */
+.navbarBackground{
+    background-color: var(--main-bg-color);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    z-index: 99;
+}
 /* Navbar Brand Styles */
 .navbarBrand{
     display: flex;
