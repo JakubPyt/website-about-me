@@ -7,7 +7,7 @@ class Projects extends React.Component{
     }
     render(){
         return(
-            <div className="projectsDiv">
+            <div className="projectsDiv" name="projects">
                 <h1>Hello World</h1>
             </div>
         )

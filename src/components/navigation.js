@@ -96,6 +96,14 @@ class Navigation extends React.Component {
               <p>Umiejętności twarde</p>
             </Link>
             <Link
+              to="projects"
+              className="navbarItem"
+              smooth={true}
+              duration={500}
+            >
+              <p>Moje projekty</p>
+            </Link>
+            <Link
               to="contact"
               className="navbarItem"
               smooth={true}
