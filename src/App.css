@@ -7,4 +7,6 @@
     --second-color: violet; /* Hover color for the above */
     --main-font: 'Original Surfer', cursive; /* Font for entire website */
  }
+.App{
+  background-color: var(--main-bg-color);
 }
