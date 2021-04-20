@@ -8,6 +8,21 @@
     z-index: 100;
     font-family: var(--main-font);
 }
+/* Navbar Brand Styles */
+.navbarBrand{
+    display: flex;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    border-radius: 20px;
+    border: 3px solid var(--main-color);
+    
+}
+.navbarBrand:hover{
+    color: var(--second-color);
+    background-color: var(--second-bg-color);
+    border-color: var(--second-color);
+    cursor: pointer;
+}
 /* Other elements of navbar */
 .navbarItems{
     display: flex;
