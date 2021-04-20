@@ -1,42 +1,49 @@
+/* Styles for main div inside which is entire component */
 .contactDiv{
-    background-color: rgb(24 25 26);
-    color: seashell;
-    padding: 1% 0 0 0;
+    color: white;
     text-align: center;
+    padding: 1em;
+    font-family: var(--main-font);
 }
+/* Style for header of component */
+.contactDivHeader{
+    color: var(--main-color);
+}
+/* Styles for div, inside which there are all profiles */
 .divForContactIcons{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+/* Styles for div inside which is arranged single profile */
 .singleProfile{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px; 
 }
-.aIcon{
-    color: black;
-    background: linear-gradient(0deg,  #fff,rgb(192, 192, 192));
+/* Styles for every single circle, inside which there is icon of profile */
+/* Size of icons is in contact.js in func createProfilesIcons */
+.aOuterCircle{
+    color: black; /* Color of icons */
+    background: linear-gradient(0deg,  #fff,rgb(192, 192, 192)); /* Color of circle */
     border-radius: 50%;
     box-shadow: 0 10px 15px rgba(228, 227, 227, 0.5);
 }
-.aIcon:hover{
-    transform: scale(0.9, 0.9); 
+.aOuterCircle:hover{
+    transform: scale(0.9, 0.9);
+    color: var(--main-color); /* Color of hover icons */
     transition: 0.3s;
-    box-shadow: 0 2px 5px rgba(180, 180, 180, 0.3);
+    box-shadow: 0 2px 5px rgba(180, 180, 180, 0.3); /* Color of hover circle */
     cursor: pointer;
 }
-.circleForIcons{
+.innerCircle{
     background: linear-gradient(0deg,rgb(192, 192, 192), #fff);
-    width: 60px;
-    height: 60px;
+    width: 60px; /* Width of circle */ 
+    height: 60px; /* Height of circle */ 
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     margin: 3px; 
-}
-.icon{
-    width: 50%;
-    height: 50%;
 }
