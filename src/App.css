@@ -1,5 +1,10 @@
  /* All style variables for website - there is no more */
  :root{
+    --main-bg-color: rgb(19, 26, 20); /* For background, navbar and title cards in hardskills */
+    --second-bg-color: rgb(65, 65, 65) ; /* For place for achivements in hardskills  */
+    --third-bg-color: grey; /* For hover in certificates card in hardskills and for navbar subtitles */
+    --main-color: purple; /* For headings, icons, buttons and navbar brand */
+    --second-color: violet; /* Hover color for the above */
     --main-font: 'Original Surfer', cursive; /* Font for entire website */
  }
 }
