@@ -1,21 +1,40 @@
+/* Main styles for component */
 .hardSkillsDiv{
-    background-color: rgb(24 25 26);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 1em 1em 1em 1em;
+    padding: 1em;
+    font-family: var(--main-font);
 }
-.hardSkillsDiv h1{
+/* Styles for header - h1*/
+.hardSkillsHeader{
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+/* Styles for explanation - p */
+.hardSkillsExplanation{
     color: white;
     display: flex;
     justify-content: center;
 }
-Button{
+/* Styles for buttons */
+.hardSkillsDiv button{
     margin: 1em 2em 0em 2em;
+    background-color: var(--main-color);
+    color: white;
+    border: 0;
+    font-family: var(--main-font);
+    border-radius: 5px;
+    padding: 0.4em;
 }
+.hardSkillsDiv button:hover{
+    background-color: var(--second-color);
+}
+/* Styles for div from certificates component and div from challenges component */
 .placeForAchivements{
-    background-color: rgb(73, 72, 72);
-    margin: 0em 2em 0em 2em;
+    background-color: var(--second-bg-color);
+    margin: 0em 2em;
     border-radius: 0em 0em 1em 1em;
     display: flex;
     flex-wrap: wrap;
