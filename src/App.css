@@ -1,38 +1,12 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ /* All style variables for website - there is no more */
+ :root{
+    --main-bg-color: rgb(19, 26, 20); /* For background, navbar and title cards in hardskills */
+    --second-bg-color: rgb(65, 65, 65) ; /* For place for achivements in hardskills  */
+    --third-bg-color: grey; /* For hover in certificates card in hardskills and for navbar subtitles */
+    --main-color: purple; /* For headings, icons, buttons and navbar brand */
+    --second-color: violet; /* Hover color for the above */
+    --main-font: 'Original Surfer', cursive; /* Font for entire website */
+ }
+.App{
+  background-color: var(--main-bg-color);
 }

@@ -1,0 +1,49 @@
+/* Main styles for component */
+.navbar{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+    display: flex;
+    z-index: 100;
+    font-family: var(--main-font);
+}
+/* Styles for background of navbar(displayed in half of header image) */
+.navbarBackground{
+    background-color: var(--main-bg-color);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    z-index: 99;
+}
+/* Navbar Brand Styles */
+.navbarBrand{
+    display: flex;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    border-radius: 20px;
+    border: 3px solid var(--main-color);
+    
+}
+.navbarBrand:hover{
+    color: var(--second-color);
+    background-color: var(--second-bg-color);
+    border-color: var(--second-color);
+    cursor: pointer;
+}
+/* Other elements of navbar */
+.navbarItems{
+    display: flex;
+}
+/* Every single element of navbar */
+.navbarItem{
+    margin: 1em 1em 0.5em 1em;
+    color: gray;
+    text-decoration: none;
+}
+.navbarItem:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

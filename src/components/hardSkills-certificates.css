@@ -1,0 +1,28 @@
+/* Styles for div inside which are all certificates by type */
+.placeForCertificates{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0em;
+}
+/* Styles for each single card with certificate */
+.certificateCard{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: var(--main-font);
+    max-width: 9em;
+    margin: 1em 0.3em 1em 1.7em;
+    cursor: pointer;
+}
+.certificateCard:hover{
+    background-color: var(--third-bg-color);
+}
+/* A should fit for certificate card and not show it styles */
+.aCertificate{
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    cursor: default;
+}
+.aCertificate:hover{
+    text-decoration: none;
+}
