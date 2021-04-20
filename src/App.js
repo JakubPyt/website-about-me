@@ -8,6 +8,7 @@ import {AboutMe} from './components/aboutMe';
 import {SoftSkills} from './components/softSkills';
 import {HardSkills} from './components/hardSkills';
 import {Contact} from './components/contact';
+import {Projects} from './components/projects';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AboutMe/>
         <SoftSkills/>
         <HardSkills/>
+        <Projects/>
         <Contact/>
       </div>
   );
