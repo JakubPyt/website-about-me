@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 
 class Navigation extends React.Component {
@@ -9,31 +9,62 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" bg="dark" variant="dark">
-          <Nav>
-            <Navbar.Brand href="#homeID">
-              <AiOutlineDoubleLeft />
-              PYT
-              <AiOutlineDoubleRight />
-            </Navbar.Brand>
-          </Nav>
-          <Navbar.Collapse className="justify-content-end">
-            <Nav>
-              <Nav.Item>
-                <Nav.Link href="#aboutMeID">O mnie</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="#softSkillsID">Umiejętności miękkie</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="#hardSkillsID">Umiejętności twarde</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="#contactID">Kontakt</Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+        {/* Main part of navbar 
+                All links has smooth scroll to name elements of components
+        */}
+        <div className="navbar" id="navbar">
+
+          {/* Navbar brand */}
+          <Link 
+            to="home" 
+            smooth={true} 
+            duration={500}
+          >
+            <div className="navbarBrand">
+              <h1>
+                <AiOutlineDoubleLeft />
+                PYT
+                <AiOutlineDoubleRight />
+              </h1>
+            </div>
+          </Link>
+
+          {/* Other items of navbar */}
+          <div className="navbarItems">
+            <Link
+              to="aboutMe"
+              className="navbarItem"
+              smooth={true}
+              duration={500}
+            >
+              <p>O mnie</p>
+            </Link>
+            <Link
+              to="softSkills"
+              className="navbarItem"
+              smooth={true}
+              duration={500}
+            >
+              <p>Umiejętności miękkie</p>
+            </Link>
+            <Link
+              to="hardSkills"
+              className="navbarItem"
+              smooth={true}
+              duration={500}
+            >
+              <p>Umiejętności twarde</p>
+            </Link>
+            <Link
+              to="contact"
+              className="navbarItem"
+              smooth={true}
+              duration={500}
+            >
+              <p>Kontakt</p>
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
