@@ -1,22 +1,37 @@
+/* Main div for component */
 .softSkillsDiv{
-    background-color: rgb(24 25 26);
+    width: 98%;
 }
+/* Styles for all card with informations */
 .softSkillsCard{
+    background-color: var(--main-bg-color);
     margin: 30px 30px 30px 30px;
+    border: 0;
+    font-family: var(--main-font);
 }
+/* Styles for header of card with informations */
+.softSkillsCardHeader{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    border: 0;
+}
+/* Styles for div inside which is reference to instagram */
+.softSkillsInstagram{
+    width: 100%;
+    text-align: center;
+}
+/* Styles for instagram icon */
+.softSkillsInstagramIcon{
+    color: var(--main-color);
+    font-size: 2.3em;
+}
+.softSkillsInstagramIcon:hover{
+    color: var(--second-color);
+}
+/* Styles for image */
 .meImage{
     border: 3px solid black;
     border-radius: 15px;
     width: 100%;
     margin: 30px 1px 30px 0px;
-}
-.cardHeader{
-    text-align: right;
-}
-.cardBody{
-    margin: auto 50px auto 50px;
-}
-.center{
-    width: 100%;
-    text-align: center;
 }
