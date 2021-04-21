@@ -5,3 +5,10 @@
     color: var(--main-color);
     text-align: center;
 }
+.placeForProjects{
+    height: 10em;   /* Temporary height */
+    border-radius: 25px;
+    border: 3px solid black;
+    margin: 1em 3em 0em 3em;
+    background-color: var(--second-bg-color);
+}
