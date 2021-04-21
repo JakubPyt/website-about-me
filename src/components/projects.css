@@ -1,5 +1,7 @@
 .projectsDiv{
-    color: var(--main-color);
     font-family: var(--main-font);
+}
+.projectsHeader{
+    color: var(--main-color);
     text-align: center;
 }
