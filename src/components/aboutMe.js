@@ -1,5 +1,4 @@
 import React from "react";
-import memImage from "../images/mem.jpg";
 import "./aboutMe.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
@@ -16,7 +15,10 @@ const AboutMe = function () {
           <Col sm={4}>
             {/* Onclick meme redirects to website where i found meme */}
             <a href="https://i.redd.it/l5pwx2lmfsj61.jpg">
-              <img className="memImage" src={memImage} alt="Mem zestawiający wymagania rynkowe z tym, czego uczymy się w szkołach"/>
+              <img 
+              className="memImage" 
+              src='https://lh3.googleusercontent.com/Y7oOemC7V9lPlJwp1pvWdAZq_mLkLZ_aT5sSc6aVoOZq1CpGSFjLYpOLzGoNWN4U-KWYLXsHt1zxh18S8THJOG3eqEX8XyK1b6b1_9V39cDe0m4gmIttPdXfkLHhasGSrwiNyw5UlA=w2400' 
+              alt="Mem zestawiający wymagania rynkowe z tym, czego uczymy się w szkołach"/>
             </a>
           </Col>
           <Col sm={8}>
