@@ -124,10 +124,28 @@ class Projects extends React.Component {
     };
   }
 
+  // The function generates a field with cards with information from state
+  createProjectsCards(projects) {
+    return (
+      // It generates field
+      <div className="placeForProjects">
                 </div>
-            </div>
-        )
-    }
+    );
+  }
+  render() {
+    return (
+      <div 
+        className="projectsDiv" //For style
+        name="projects" // For navigation
+        >
+
+        <h1 className="projectsHeader">Moje projekty</h1>
+
+        {/* Function below generates whole content */}
+        {this.createProjectsCards(this.state.projects)}
+      </div>
+    );
+  }
 }
 
 export { Projects };
