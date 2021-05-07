@@ -29,11 +29,10 @@ const AboutMe = function () {
               <Card.Title className="aboutMeCardTitle">Hello World!</Card.Title>
               <Card.Body>
                 <ul>
-                  <li>Jestem Jakub, maniak programowania.</li>
-                  <li>Mocno wziąłem sobie do serca tego mema.</li>
+                  <li>Jestem Jakub.</li>
                   <li>
                     Jestem studentem w Warszawskiej Wyższej Szkole Informatyki,
-                    na kierunku Data Science.
+                    na kierunku Data Science(i to ta dziedzina informatyki interesuje mnie najbardziej).
                   </li>
                   <li>
                     Jestem absolwentem technikum informatycznego ze zdobytymi
@@ -41,7 +40,10 @@ const AboutMe = function () {
                     E14(budowa i administrowanie stronami internetowymi i bazami
                     danych).
                   </li>
-                  <li>Jestem samoukiem w pozostałych polach informatyki.</li>
+                  <li>
+                    Będąc świadomym że w widocznym obrazku, kryje się sporo prawdy, postanowiłem zostać samoukiem.
+                    I jak postanowiłem, tak też zrobiłem - co można zobaczyć w umiejętnościach twardych oraz w projektach.
+                  </li>
                   <li>
                     Jestem też instruktorem harcerskim, dzięki czemu umiejętności miękkie u
                     mnie nie leżą ;)
