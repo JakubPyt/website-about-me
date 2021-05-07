@@ -1,6 +1,5 @@
 import React from "react";
 import "./softSkills.css";
-import meImage from "../images/me.jpg";
 import { Card, Col, Row } from "react-bootstrap";
 import { AiFillInstagram } from "react-icons/ai";
 
@@ -55,7 +54,11 @@ const SoftSkills = function(){
               </Card>
             </Col>
             <Col sm={3}>
-              <img className="meImage" src={meImage} alt="Problem ze zdjęciem..."/>
+              <img 
+                className="meImage" 
+                src='https://lh3.googleusercontent.com/JdCIAR09KGKMrt8gIvgl7MGru1IASgsLYXiuiVraLhUvOiQKoo6gPJwNAnQWwdxalSb1Na2IpM6JzqEYxUe1DmqTrJ6n6EXD5A-WldDRAk7wKG68ZbJl2bRg7tIHtulDAtm5MtP1mg=w2400' 
+                alt="Problem ze zdjęciem..."
+              />
             </Col>
           </Row>
         </div>
