@@ -38,7 +38,7 @@ const SoftSkills = function(){
                     <li>
                       Dowodzenie 16 osobową grupą młodzieżową od 2018 roku, razem
                       z którą przeprowadzaliśmy kilka znaczących projektów, takich
-                      jak remont domu dla starszej, ubogiej pani, akcje
+                      jak remont domu dla starszej, ubogiej pani, czy akcje
                       dostarczania paczek kombatantom w naszych okolicach. Tą
                       grupą wciąż dowodzę, a o naszych przedsięwzięciach można
                       doczytać na naszym instagramie:
