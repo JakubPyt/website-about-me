@@ -14,8 +14,8 @@ class Projects extends React.Component {
           title: "Ta strona",
           type: "Front end",
           mainTech: "React",
-          modules: ["React-Bootstrap", "React-Icons", "React-Scroll"],
-          tools: ["Visual Studio Code", "Github", "Github Pages"],
+          modules: ["React-Bootstrap", "React-Icons", "React-Scroll", 'gh-pages'],
+          tools: ["Visual Studio Code", "Github", "Github Pages", 'Embadded Google Photos'],
           description:
             "Strona stworzona w celu zebrania wszystkich moich projektów i osiągnięć programistycznych w jednym miejscu. ",
           link_run: "",
