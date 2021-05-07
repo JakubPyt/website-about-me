@@ -159,10 +159,10 @@ class Projects extends React.Component {
                 {/* Not displayed if empty */}
                 {project.modules.length == [] ? null : (
                   <div>
-                    <p className="projectCardList_p">Dodatkowe moduły:</p>
+                    <p className="projectCardListHeader">Dodatkowe moduły:</p>
                     <div className="projectCardList">
                       {project.modules.map((module) => (
-                        <p className="projectCardList_p_element"># {module}</p>
+                        <p className="projectCardListElement"># {module}</p>
                       ))}
                     </div>
                   </div>
