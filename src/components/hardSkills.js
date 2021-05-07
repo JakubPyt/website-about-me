@@ -67,12 +67,12 @@ class HardSkills extends React.Component {
                 <button onClick={this.toggleContainerPython.bind(this)} className="hardSkilsButton" > Python <FaPython /> </button>
                 {/* If var in state for type is true, then call func render container for type */}
                 {this.state.openPython === true ? this.renderContainer("Python") : null} 
+
+                <button onClick={this.toggleContainerDataScience.bind(this)} className="hardSkilsButton" > Data Science <BsClipboardData /> </button>
+                {this.state.openDataScience === true ? this.renderContainer("DataScience")  : null}
                 
                 <button onClick={this.toggleContainerDB.bind(this)} className="hardSkilsButton" > Bazy danych <FiDatabase /> </button>
                 {this.state.openDB === true ? this.renderContainer("Databases")  : null}
-                
-                <button onClick={this.toggleContainerDataScience.bind(this)} className="hardSkilsButton" > Data Science <BsClipboardData /> </button>
-                {this.state.openDataScience === true ? this.renderContainer("DataScience")  : null}
                 
                 <button onClick={this.toggleContainerWebDev.bind(this)} className="hardSkilsButton" > Web Development <GiSpiderWeb /> </button>
                 {this.state.openWebDev === true ? this.renderContainer("WebDev")  : null}
