@@ -31,7 +31,7 @@ const AboutMe = function () {
                 <ul>
                   <li>Jestem Jakub.</li>
                   <li>
-                    Jestem studentem w Warszawskiej Wyższej Szkole Informatyki,
+                    Studiuję zaocznie w Warszawskiej Wyższej Szkole Informatyki,
                     na kierunku Data Science (i to ta dziedzina informatyki interesuje mnie najbardziej).
                   </li>
                   <li>
@@ -41,8 +41,8 @@ const AboutMe = function () {
                     danych).
                   </li>
                   <li>
-                    Będąc świadomym że w widocznym obrazku, kryje się sporo prawdy, postanowiłem zostać samoukiem.
-                    I jak postanowiłem, tak też zrobiłem - co można zobaczyć w kompetencjach twardych oraz w projektach.
+                    Będąc świadomym, że na widocznym obrazku kryje się sporo prawdy, postanowiłem zostać samoukiem.
+                    Jak postanowiłem, tak też zrobiłem - co można zobaczyć w zakładce "kompetencje twarde" oraz w projektach.
                   </li>
                   <li>
                     Jestem też instruktorem harcerskim, dzięki czemu kompetencje miękkie u
