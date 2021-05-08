@@ -60,7 +60,7 @@ class HardSkills extends React.Component {
                 className="hardSkillsDiv" 
                 name="hardSkills" //Anchor point for navigation 
             >
-                <h1 className="hardSkillsHeader">Umiejętności twarde</h1>
+                <h1 className="hardSkillsHeader">Kompetencje twarde</h1>
                 <p className="hardSkillsExplanation">Kliknij w zakładkę, aby zobaczyć certyfikaty i ukończone wyzwania programistyczne</p>
 
                 {/* For each type there is button, which call func toggleContainer for change value on true or false */}

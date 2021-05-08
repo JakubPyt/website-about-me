@@ -87,7 +87,7 @@ class Navigation extends React.Component {
               duration={500}
               offset={-50}
             >
-              <p>Umiejętności miękkie</p>
+              <p>Kompetencje miękkie</p>
             </Link>
             <Link
               to="hardSkills"
@@ -96,7 +96,7 @@ class Navigation extends React.Component {
               duration={500}
               offset={-50}
             >
-              <p>Umiejętności twarde</p>
+              <p>Kompetencje twarde</p>
             </Link>
             <Link
               to="projects"

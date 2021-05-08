@@ -15,13 +15,13 @@ const SoftSkills = function(){
             <Col sm={8}>
               <Card className="softSkillsCard" text="light">
                 <Card.Header className="softSkillsCardHeader">
-                  <h1>Umiejętności miękkie</h1>
+                  <h1>Kompetencje miękkie</h1>
                 </Card.Header>
                 <Card.Body>
                   <p>
                     Jak to programista, mam skłonności do introwertyzmu, ale
                     potrafię odnaleźć się w każdej sytuacji. Niech potwierdzeniem
-                    moich umiejętności miękkich będą poniższe rezultaty:
+                    moich kompetencji miękkich będą poniższe rezultaty:
                   </p>
                   <ul>
                     <li>

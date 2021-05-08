@@ -42,10 +42,10 @@ const AboutMe = function () {
                   </li>
                   <li>
                     Będąc świadomym że w widocznym obrazku, kryje się sporo prawdy, postanowiłem zostać samoukiem.
-                    I jak postanowiłem, tak też zrobiłem - co można zobaczyć w umiejętnościach twardych oraz w projektach.
+                    I jak postanowiłem, tak też zrobiłem - co można zobaczyć w kompetencjach twardych oraz w projektach.
                   </li>
                   <li>
-                    Jestem też instruktorem harcerskim, dzięki czemu umiejętności miękkie u
+                    Jestem też instruktorem harcerskim, dzięki czemu kompetencje miękkie u
                     mnie nie leżą ;)
                   </li>
                 </ul>
