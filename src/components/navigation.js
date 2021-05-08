@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 import "./navigation.css";
+import { AiOutlineFork } from 'react-icons/ai';
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -94,7 +94,6 @@ class Navigation extends React.Component {
           </div>
     )
   }
-  // window.innerWidth
   render() {
     return (
       <div>
@@ -118,14 +117,12 @@ class Navigation extends React.Component {
             duration={500}
           >
             <div className="navbarBrand">
-              <h1>
-                <AiOutlineDoubleLeft />
-                PYT
-                <AiOutlineDoubleRight />
+              <h1 style={{fontWeight:'bold'}}>
+                P<AiOutlineFork/>T
               </h1>
             </div>
           </Link>
-
+          {/* Tabs are not displayed on small screens  */}
           {window.innerWidth > 760 ? this.notMobile() : null}
 
         </div>
