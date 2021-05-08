@@ -16,7 +16,7 @@ class Contact extends React.Component {
       profiles: [
         {
           website: "LinkedId",
-          link: "https://www.linkedin.com/in/jakub-pyt-9449b4204/",
+          link: "https://www.linkedin.com/in/jakub-pyt/",
           icon: <AiFillLinkedin />,
         },
         {
