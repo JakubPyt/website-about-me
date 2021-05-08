@@ -19,7 +19,7 @@ class Projects extends React.Component {
           description:
             "Strona stworzona w celu zebrania wszystkich moich projektów i osiągnięć programistycznych w jednym miejscu. ",
           link_run: "",
-          link_git: "#",
+          link_git: "https://github.com/JakubPyt/website-about-me",
         },
         {
           title: "Budget App",
