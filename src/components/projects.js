@@ -36,16 +36,19 @@ class Projects extends React.Component {
           link_git: "https://github.com/JakubPyt/Budget-App",
         },
         {
-          title: "Matrix Calculator",
-          type: "Aplikacja konsolowa + Data Science",
+          title: "Medical Data Visualizer",
+          type: "Data Science(Analiza danych i wizualizacja)",
           mainTech: "Python",
-          modules: ["Numpy"],
-          tools: ["PyCharm", "Github"],
+          modules: ["Pandas", "Numpy", "Seaborn"],
+          tools: ["Jupyter Notebook", "Google Colab"],
           description:
-            "Prosta aplikacja konsolowa, stworzona w celu przećwiczenia obsługi modułu numpy, który gra w niej pierwsze skrzypce. Przycisk uruchom przeniesie Cię\
-                    do strony replit.com, gdzie będziesz mieć możliwość zobaczenia kalkulatora macierzy w akcji.",
-          link_run: "https://replit.com/@JakubPyt/Matrix-Calculator-1#main.py",
-          link_git: "https://github.com/JakubPyt/Matrix-Calculator",
+            'Projekt stworzony w ramach kursu "Data Analysis" na stronie freecodecamp.org. W tym projekcie moim zadaniem była praca z danymi medycznymi: \
+                    dodawanie wyliczonych kolumn, normalizacja, sprzątanie danych oraz ich wizualizacja. \
+                    Przycisk uruchom przeniesie Cię do mojego notatnika w Google Colaboratory. ',
+          link_run:
+            "https://colab.research.google.com/drive/1J657ce9urZj-U4nv9pYYUuIcs-cJp0iB?usp=sharing",
+          link_git:
+            "https://github.com/JakubPyt/Medical_Data_Visualizer/blob/main/Medical_Data_Visualizer.ipynb",
         },
         {
           title: "Demographic Data Analyzer",
@@ -61,21 +64,6 @@ class Projects extends React.Component {
             "https://colab.research.google.com/drive/1U2QpwL8ZpFlFBEf_hKffKUY3A-vWBnqB?usp=sharing",
           link_git:
             "https://github.com/JakubPyt/Demographic_Data_Analyzer/blob/main/Demographic_Data_Analyzer.ipynb",
-        },
-        {
-          title: "Medical Data Visualizer",
-          type: "Data Science(Analiza danych i wizualizacja)",
-          mainTech: "Python",
-          modules: ["Pandas", "Numpy", "Seaborn"],
-          tools: ["Jupyter Notebook", "Google Colab"],
-          description:
-            'Projekt stworzony w ramach kursu "Data Analysis" na stronie freecodecamp.org. W tym projekcie moim zadaniem była praca z danymi medycznymi: \
-                    dodawanie wyliczonych kolumn, normalizacja, sprzątanie danych oraz ich wizualizacja. \
-                    Przycisk uruchom przeniesie Cię do mojego notatnika w Google Colaboratory. ',
-          link_run:
-            "https://colab.research.google.com/drive/1J657ce9urZj-U4nv9pYYUuIcs-cJp0iB?usp=sharing",
-          link_git:
-            "https://github.com/JakubPyt/Medical_Data_Visualizer/blob/main/Medical_Data_Visualizer.ipynb",
         },
         {
           title: "Page View Time Series Visualizer",
@@ -107,6 +95,18 @@ class Projects extends React.Component {
             "https://colab.research.google.com/drive/1cy4GF4V0MlTnEp4XjHrCDgtbadKCsBpY?usp=sharing",
           link_git:
             "https://github.com/JakubPyt/Sea_Level_Predictor/blob/main/Sea_Level_Predictor.ipynb",
+        },
+        {
+          title: "Matrix Calculator",
+          type: "Aplikacja konsolowa + Data Science",
+          mainTech: "Python",
+          modules: ["Numpy"],
+          tools: ["PyCharm", "Github"],
+          description:
+            "Prosta aplikacja konsolowa, stworzona w celu przećwiczenia obsługi modułu numpy, który gra w niej pierwsze skrzypce. Przycisk uruchom przeniesie Cię\
+                    do strony replit.com, gdzie będziesz mieć możliwość zobaczenia kalkulatora macierzy w akcji.",
+          link_run: "https://replit.com/@JakubPyt/Matrix-Calculator-1#main.py",
+          link_git: "https://github.com/JakubPyt/Matrix-Calculator",
         },
         {
           title: "Tribute Page",
