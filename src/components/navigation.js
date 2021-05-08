@@ -76,6 +76,7 @@ class Navigation extends React.Component {
               className="navbarItem"
               smooth={true}
               duration={500}
+              offset={-50}
             >
               <p>O mnie</p>
             </Link>
@@ -84,6 +85,7 @@ class Navigation extends React.Component {
               className="navbarItem"
               smooth={true}
               duration={500}
+              offset={-50}
             >
               <p>Umiejętności miękkie</p>
             </Link>
@@ -92,6 +94,7 @@ class Navigation extends React.Component {
               className="navbarItem"
               smooth={true}
               duration={500}
+              offset={-50}
             >
               <p>Umiejętności twarde</p>
             </Link>
@@ -100,6 +103,7 @@ class Navigation extends React.Component {
               className="navbarItem"
               smooth={true}
               duration={500}
+              offset={-100}
             >
               <p>Moje projekty</p>
             </Link>
@@ -108,6 +112,7 @@ class Navigation extends React.Component {
               className="navbarItem"
               smooth={true}
               duration={500}
+              offset={-50}
             >
               <p>Kontakt</p>
             </Link>
