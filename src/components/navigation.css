@@ -24,7 +24,9 @@
     color: var(--main-color);
     border-radius: 20px;
     border: 3px solid var(--main-color);
-    
+}
+.navbarBrand h1{
+    font-size: 2em;
 }
 .navbarBrand:hover{
     color: var(--second-color);

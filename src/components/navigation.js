@@ -30,47 +30,22 @@ class Navigation extends React.Component {
     this.setState({ opacity });
   }
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-    const heightHeader = document.getElementById("header").clientHeight;
-    const heightNavbar = document.getElementById("navbar").clientHeight;
-    this.setState({ heightHeader, heightNavbar });
+    if(window.innerWidth > 760){
+      window.addEventListener("scroll", this.handleScroll);
+      const heightHeader = document.getElementById("header").clientHeight;
+      const heightNavbar = document.getElementById("navbar").clientHeight;
+      this.setState({ heightHeader, heightNavbar });
+    }
   }
   componentWillUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
   }
-  render() {
-    return (
-      <div>
-        {/* navbarBackground has dynamically calculated opacity */}
-        <div
-          className="navbarBackground"
-          style={{
-            height: this.state.heightNavbar,
-            opacity: this.state.opacity,
-          }}
-        ></div>
-        {/* Main part of navbar 
-                All links has smooth scroll to name elements of components
-        */}
-        <div className="navbar" id="navbar">
-
-          {/* Navbar brand */}
-          <Link 
-            to="home" 
-            smooth={true} 
-            duration={500}
-          >
-            <div className="navbarBrand">
-              <h1>
-                <AiOutlineDoubleLeft />
-                PYT
-                <AiOutlineDoubleRight />
-              </h1>
-            </div>
-          </Link>
-
-          {/* Other items of navbar */}
+  notMobile(){
+    return(
+          
+        
           <div className="navbarItems">
+            {/* Other items of navbar */}
             <Link
               to="aboutMe"
               className="navbarItem"
@@ -117,6 +92,42 @@ class Navigation extends React.Component {
               <p>Kontakt</p>
             </Link>
           </div>
+    )
+  }
+  // window.innerWidth
+  render() {
+    return (
+      <div>
+        {/* navbarBackground has dynamically calculated opacity */}
+        <div
+          className="navbarBackground"
+          style={{
+            height: this.state.heightNavbar,
+            opacity: this.state.opacity,
+          }}
+        ></div>
+        {/* Main part of navbar 
+                All links has smooth scroll to name elements of components
+        */}
+        <div className="navbar" id="navbar">
+
+          {/* Navbar brand */}
+          <Link 
+            to="home" 
+            smooth={true} 
+            duration={500}
+          >
+            <div className="navbarBrand">
+              <h1>
+                <AiOutlineDoubleLeft />
+                PYT
+                <AiOutlineDoubleRight />
+              </h1>
+            </div>
+          </Link>
+
+          {window.innerWidth > 760 ? this.notMobile() : null}
+
         </div>
       </div>
     );
