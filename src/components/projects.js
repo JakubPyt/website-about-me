@@ -12,7 +12,7 @@ class Projects extends React.Component {
       projects: [
         {
           title: "Ta strona",
-          type: "Front end",
+          type: "Web development",
           mainTech: "React",
           modules: ["React-Bootstrap", "React-Icons", "React-Scroll", 'gh-pages'],
           tools: ["Visual Studio Code", "Github", "Github Pages", 'Embadded Google Photos'],
@@ -23,7 +23,7 @@ class Projects extends React.Component {
         },
         {
           title: "Budget App",
-          type: "Aplikacja desktopowa",
+          type: "Aplikacja desktopowa + Data Science",
           mainTech: "Python",
           modules: ["Tkinter", "Matplotlib", "Pandas"],
           tools: ["PyCharm", "Github"],
@@ -37,7 +37,7 @@ class Projects extends React.Component {
         },
         {
           title: "Matrix Calculator",
-          type: "Aplikacja konsolowa",
+          type: "Aplikacja konsolowa + Data Science",
           mainTech: "Python",
           modules: ["Numpy"],
           tools: ["PyCharm", "Github"],
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         },
         {
           title: "Demographic Data Analyzer",
-          type: "Analiza danych",
+          type: "Data Science(Analiza danych)",
           mainTech: "Python",
           modules: ["Pandas"],
           tools: ["Jupyter Notebook", "Google Colab"],
@@ -64,7 +64,7 @@ class Projects extends React.Component {
         },
         {
           title: "Medical Data Visualizer",
-          type: "Analiza danych i wizualizacja",
+          type: "Data Science(Analiza danych i wizualizacja)",
           mainTech: "Python",
           modules: ["Pandas", "Numpy", "Seaborn"],
           tools: ["Jupyter Notebook", "Google Colab"],
@@ -79,7 +79,7 @@ class Projects extends React.Component {
         },
         {
           title: "Page View Time Series Visualizer",
-          type: "Wizualizacja danych",
+          type: "Data Science(Wizualizacja)",
           mainTech: "Python",
           modules: ["Pandas", "Numpy", "Seaborn", "Matplotlib"],
           tools: ["Jupyter Notebook", "Google Colab"],
@@ -94,7 +94,7 @@ class Projects extends React.Component {
         },
         {
           title: "Sea level predictor",
-          type: "Wizualizacja danych + predykcja",
+          type: "Data Science(Wizualizacja + predykcja)",
           mainTech: "Python",
           modules: ["Pandas", "Matplotlib", "Scipy"],
           tools: ["Jupyter Notebook", "Google Colab"],
@@ -110,7 +110,7 @@ class Projects extends React.Component {
         },
         {
           title: "Tribute Page",
-          type: "Front end",
+          type: "Web development",
           mainTech: "HTML, CSS",
           modules: [],
           tools: ["Visual Studio Code", "Github", "Github Pages"],
