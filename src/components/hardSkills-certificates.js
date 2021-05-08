@@ -82,7 +82,7 @@ class HardSkillsCertificates extends React.Component {
       certificatesWebDev: [
         {
           name:
-            "Bootcamp programistyczny 2020(PL): Web dev Full stack(HTML, CSS, JavaScript, Angular 7, React 16, Python 3, Django 2, NativeScript 5)",
+            "Bootcamp programistyczny 2020 (PL): Web dev Full stack (HTML, CSS, JavaScript, Angular 7, React 16, Python 3, Django 2, NativeScript 5)",
           link:
             "https://www.udemy.com/certificate/UC-5d7d37d8-f783-4c74-aa4f-4885f0752f4c/",
           pic:

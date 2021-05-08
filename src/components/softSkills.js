@@ -33,7 +33,7 @@ const SoftSkills = function(){
                     <li>Praca w McDonald’s</li>
                     <li>
                       Dowodzenie około 20 osobową grupą młodzieżową przez okres 3
-                      lat(2015-2018)
+                      lat (2015-2018)
                     </li>
                     <li>
                       Dowodzenie 16 osobową grupą młodzieżową od 2018 roku, razem

@@ -32,12 +32,12 @@ const AboutMe = function () {
                   <li>Jestem Jakub.</li>
                   <li>
                     Jestem studentem w Warszawskiej Wyższej Szkole Informatyki,
-                    na kierunku Data Science(i to ta dziedzina informatyki interesuje mnie najbardziej).
+                    na kierunku Data Science (i to ta dziedzina informatyki interesuje mnie najbardziej).
                   </li>
                   <li>
                     Jestem absolwentem technikum informatycznego ze zdobytymi
-                    kwalifikacjami E12(budowa komputerów), E13(budowa sieci),
-                    E14(budowa i administrowanie stronami internetowymi i bazami
+                    kwalifikacjami E12 (budowa komputerów), E13 (budowa sieci),
+                    E14 (budowa i administrowanie stronami internetowymi i bazami
                     danych).
                   </li>
                   <li>

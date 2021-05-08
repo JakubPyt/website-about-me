@@ -28,9 +28,9 @@ class Projects extends React.Component {
           modules: ["Tkinter", "Matplotlib", "Pandas"],
           tools: ["PyCharm", "Github"],
           description:
-            'Aplikacja do obsługi finansów. Po jej uruchomieniu masz możliwość dodawać wpłaty i wypłaty do swojej książki finansowej(panas DataFrame).\
+            'Aplikacja do obsługi finansów. Po jej uruchomieniu masz możliwość dodawać wpłaty i wypłaty do swojej książki finansowej (panas DataFrame).\
                     Dodatkowo, dzięki wgranemu modułowi matplotlib możesz wizualizować stan swojego rachunku, a wydatki zobaczysz na \
-                    wykresie kołowym(stworzonym wedle kategorii). Przycisk "Uruchom" otworzy aplikację  \
+                    wykresie kołowym (stworzonym wedle kategorii). Przycisk "Uruchom" otworzy aplikację  \
                     online, na stronie replit.com (uruchomienie projektu na stronie trochę trwa, ale mam nadzieję że nie będziesz żałować ;) ).',
           link_run: "https://replit.com/@JakubPyt/Budget-App#main.py",
           link_git: "https://github.com/JakubPyt/Budget-App",
