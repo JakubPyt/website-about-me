@@ -1,7 +1,6 @@
 import React from "react";
 import "./projects.css";
-import { Card } from "react-bootstrap";
-
+import { ProjectsCards } from "./projects-cards";
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -47,12 +46,17 @@ class Projects extends React.Component {
     })
   }
 
-  // The function generates a field with cards with information from state
-  createProjectsCards(projects) {
+  // This function is called when element from state has value 'true'
+  // This function call projects-cards component, 
+  // which return place for cards with cards from right category
+  renderContainer(typeContainer) {
     return (
+      <div>
+        <ProjectsCards type={typeContainer} />
       </div>
     );
   }
+
   render() {
     return (
       <div 
