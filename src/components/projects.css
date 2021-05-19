@@ -9,13 +9,28 @@
     color: var(--main-color);
     text-align: center;
 }
+/* ============== */
+/* Switch Buttons */
+/* ============== */
+.switchButtons{
+    position: relative;
+    rotate: 90;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
 }
+.switchButton{
     background-color: var(--main-color);
     border: var(--main-color);
     color: white;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 5px 5px 0 0 ;
+    margin: 0.5em 0em 0em 0.5em;
 
 }
+.switchButton:hover{
+    background-color: var(--second-color);
+    color: white;
 }
 
