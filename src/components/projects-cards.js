@@ -173,7 +173,7 @@ class ProjectsCards extends React.Component {
             <Card key={project.name} className="projectCard">
               {/* Header */}
               <Card.Header className="projectCardHeader">
-                {project.title} {project.star == true ? <AiFillStar /> : null}
+                {project.title} {project.star === true ? <AiFillStar /> : null}
               </Card.Header>
 
               <Card.Body className="projectCardBody">
@@ -182,24 +182,24 @@ class ProjectsCards extends React.Component {
                 <p className="projectCardMainTech"> {project.mainTech} </p>
                 {/* tools */}
                 {/* Not displayed if empty */}
-                {project.tools.length == [] ? null : (
+                {project.tools.length === [] ? null : (
                   <div>
                     <p className="projectCardListHeader">Narzędzia:</p>
                     <div className="projectCardList">
                       {project.tools.map((tool) => (
-                        <p className="projectCardListElement"># {tool}</p>
+                        <p key={tool} className="projectCardListElement"># {tool}</p>
                       ))}
                     </div>
                   </div>
                 )}
                 {/* modules */}
                 {/* Not displayed if empty */}
-                {project.modules.length == [] ? null : (
+                {project.modules.length === [] ? null : (
                   <div>
                     <p className="projectCardListHeader">Dodatkowe moduły:</p>
                     <div className="projectCardList">
                       {project.modules.map((module) => (
-                        <p className="projectCardListElement"># {module}</p>
+                        <p key={module} className="projectCardListElement"># {module}</p>
                       ))}
                     </div>
                   </div>
@@ -211,7 +211,7 @@ class ProjectsCards extends React.Component {
                 <div className="projectCardButtonsSection">
                   {/* Run button */}
                   {/* Not displayed if empty */}
-                  {project.link_run == "" ? null : (
+                  {project.link_run === "" ? null : (
                     <a href={project.link_run}>
                       <button className="projectCardButton">Uruchom</button>
                     </a>
