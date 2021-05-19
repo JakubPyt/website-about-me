@@ -92,7 +92,7 @@
 .projectCardButton{
     background-color: var(--main-color);
     border: var(--main-color);
-    color: var(--third-bg-color);
+    color: white;
     padding: 0.5em;
     border-radius: 5px;
     margin: 0em 0em 0em 0em;
