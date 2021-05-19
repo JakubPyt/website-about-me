@@ -59,15 +59,50 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div 
+      <div
         className="projectsDiv" //For style
         name="projects" // For navigation
-        >
-
+      >
+        {/* Header with buttons to switch displayed projects category 
+            Buttons call toggle container function for them category
+            Toggle container function change state for category to true, and for other categories to false
+        */}
+        
         <h1 className="projectsHeader">Moje projekty</h1>
+        <div className="switchButtons">
+          <button onClick={this.toggleContainerML.bind(this)} className="switchButton">
+            Machine Learning
+          </button>
+          <button onClick={this.toggleContainerAA.bind(this)} className="switchButton">
+            Aplikacje analityczne
+          </button>
+          <button onClick={this.toggleContainerDA.bind(this)} className="switchButton">
+            Analiza danych i wizualizacja
+          </button>
+          <button onClick={this.toggleContainerWD.bind(this)} className="switchButton">
+            Web development
+          </button>
+        </div>
 
-        {/* Function below generates whole content */}
-        {this.createProjectsCards(this.state.projects)}
+        {/* When value of state element is true, ternary operators below call render container function with them category.
+            Next - from render container function is returned place for cards with cards from specific category.  
+        */}
+        {this.state.openProjects_AnalyticalApps == true
+          ? this.renderContainer("AA")
+          : null}
+
+        {this.state.openProjects_DataAnalysis == true
+          ? this.renderContainer("DA")
+          : null}
+
+        {this.state.openProjects_WebDev == true
+          ? this.renderContainer("WD")
+          : null}
+
+        {this.state.openProjects_MachineLearning == true
+          ? this.renderContainer("ML")
+          : null}
+          
       </div>
     );
   }
