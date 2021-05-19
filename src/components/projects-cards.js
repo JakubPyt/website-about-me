@@ -1,5 +1,7 @@
 import React from "react";
 import "./projects-cards.css";
+import { Card } from "react-bootstrap";
+import { AiFillStar } from "react-icons/ai";
 
 class ProjectsCards extends React.Component {
   constructor(props) {
@@ -178,6 +180,77 @@ class ProjectsCards extends React.Component {
       ],
     };
   }
+  
+  // This function generate place for cards with cards from one type
+  createCards(projects) {
+    return (
+      // It generates field
+      <div className="placeForProjects">
+        {
+          // This map get all projects(from one catgory) from state
+          projects.map((project) => (
+            // The whole card(each project has one)
+            <Card key={project.name} className="projectCard">
+              {/* Header */}
+              <Card.Header className="projectCardHeader">
+                {project.title} {project.star == true ? <AiFillStar /> : null}
+              </Card.Header>
+
+              <Card.Body className="projectCardBody">
+                {/* mainTech */}
+                Technologia przewodnia:{" "}
+                <p className="projectCardMainTech"> {project.mainTech} </p>
+                {/* tools */}
+                {/* Not displayed if empty */}
+                {project.tools.length == [] ? null : (
+                  <div>
+                    <p className="projectCardListHeader">Narzędzia:</p>
+                    <div className="projectCardList">
+                      {project.tools.map((tool) => (
+                        <p className="projectCardListElement"># {tool}</p>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {/* modules */}
+                {/* Not displayed if empty */}
+                {project.modules.length == [] ? null : (
+                  <div>
+                    <p className="projectCardListHeader">Dodatkowe moduły:</p>
+                    <div className="projectCardList">
+                      {project.modules.map((module) => (
+                        <p className="projectCardListElement"># {module}</p>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {/* description */}
+                Opis:{" "}
+                <div className="projectCardDesc">{project.description}</div>
+                {/* buttons */}
+                <div className="projectCardButtonsSection">
+                  {/* Run button */}
+                  {/* Not displayed if empty */}
+                  {project.link_run == "" ? null : (
+                    <a href={project.link_run}>
+                      <button className="projectCardButton">Uruchom</button>
+                    </a>
+                  )}
+
+                  {/* Git button */}
+                  <a href={project.link_git}>
+                    <button className="projectCardButton">
+                      Zobacz na GitHubie
+                    </button>
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
+          ))
+        }
+      </div>
+    );
+  }
 
   // This function switch which type of projects has to be displayed
   renderSwitch(type) {
@@ -194,8 +267,13 @@ class ProjectsCards extends React.Component {
         return null;
     }
   }
+  // render function get type of projects from Projects component
+  // and send this type to render switch function
+  // render switch call create cards function 
+  // and place for cards with cards is returned to be display
   render() {
     return <div>{this.renderSwitch(this.props.type)}</div>;
   }
 }
 
+export { ProjectsCards };
