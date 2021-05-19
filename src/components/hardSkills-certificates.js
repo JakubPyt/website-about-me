@@ -11,6 +11,11 @@ class HardSkillsCertificates extends React.Component {
     this.state = {
       certificatesPython: [
         {
+          name: "Scientific Computing with Python",
+          link: "https://freecodecamp.org/certification/jakubpyt/scientific-computing-with-python-v7",
+          pic: "https://lh3.googleusercontent.com/iaSgMN0BLeGUEdOslax0MCbG3l1WbCkB4o689lvC0hxVqADYzZJeQI8hKONWUi4kg-HpHq9t2ledyL9tiwmbGiwRHa124t4nX1cD-K9BzHillay-xra-NT0L37rNslqMKwTxIfySRg=w2400"
+        },
+        {
           name: "Intermediate Python",
           link:
             "https://www.sololearn.com/certificates/course/en/16942149/1158/landscape/png",
@@ -121,6 +126,11 @@ class HardSkillsCertificates extends React.Component {
             "https://www.sololearn.com/certificates/course/en/16942149/1094/landscape/png",
           pic:
             "https://lh3.googleusercontent.com/aMhHSifF1rtYnTYrp4u_g_kYjj9ML5ntRtwiCm3Wv43pDRazIAB4P9gFu6XGLMGWaXuG3P9uX-ElSbZrMq3Cpek3Mmy7RFOJUWIwQRUkvqLetKRq4lMH-C4jtXoSI5uf2ooRkpu4fQ=w2400",
+        },
+        {
+          name: "Data Analysis with Python",
+          link: "https://freecodecamp.org/certification/jakubpyt/data-analysis-with-python-v7",
+          pic: "https://lh3.googleusercontent.com/XC2bYKm7mDkoMpw-at7h-Tz_HpOI6V22gZlj12F6WqCWF93o_g5kTEi3G6CNDV5vzawg_TZChcivCr8S8ZseaYV4mpAJjX-BZnd8FiI1l6k1r86GcJ_EbkTSKz4hmhjb8KHAn4pLKA=w2400"
         },
       ],
     };
