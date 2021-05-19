@@ -6,6 +6,11 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      // This elements of state switch displayed card with projects
+      openProjects_MachineLearning: true,
+      openProjects_AnalyticalApps: false,
+      openProjects_DataAnalysis: false,
+      openProjects_WebDev: false,
     };
   }
 
