@@ -87,19 +87,19 @@ class Projects extends React.Component {
         {/* When value of state element is true, ternary operators below call render container function with them category.
             Next - from render container function is returned place for cards with cards from specific category.  
         */}
-        {this.state.openProjects_AnalyticalApps == true
+        {this.state.openProjects_AnalyticalApps === true
           ? this.renderContainer("AA")
           : null}
 
-        {this.state.openProjects_DataAnalysis == true
+        {this.state.openProjects_DataAnalysis === true
           ? this.renderContainer("DA")
           : null}
 
-        {this.state.openProjects_WebDev == true
+        {this.state.openProjects_WebDev === true
           ? this.renderContainer("WD")
           : null}
 
-        {this.state.openProjects_MachineLearning == true
+        {this.state.openProjects_MachineLearning === true
           ? this.renderContainer("ML")
           : null}
           
