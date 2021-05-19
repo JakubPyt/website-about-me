@@ -94,6 +94,7 @@ class ProjectsCards extends React.Component {
             "Visual Studio Code",
             "Github",
             "Github Pages",
+            "Embed Google Photos"
           ],
           description:
             "Strona stworzona w celu zebrania wszystkich moich projektów i osiągnięć programistycznych w jednym miejscu. ",
