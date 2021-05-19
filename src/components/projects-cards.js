@@ -178,7 +178,24 @@ class ProjectsCards extends React.Component {
       ],
     };
   }
+
+  // This function switch which type of projects has to be displayed
+  renderSwitch(type) {
+    switch (type) {
+      case "AA": // Analytical Applications
+        return this.createCards(this.state.projectsAnalyticalApps);
+      case "DA": // Data Analysis
+        return this.createCards(this.state.projectsDataAnalysis);
+      case "WD": // Web Dev
+        return this.createCards(this.state.projectsWebDev);
+      case "ML": // Machine Learning
+        return this.createCards(this.state.projectsMachineLearning);
+      default:
+        return null;
+    }
+  }
   render() {
+    return <div>{this.renderSwitch(this.props.type)}</div>;
   }
 }
 
