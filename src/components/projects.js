@@ -13,6 +13,39 @@ class Projects extends React.Component {
       openProjects_WebDev: false,
     };
   }
+  // Next four functions switch displayed card
+  toggleContainerAA() { // Analytical Apps
+    this.setState({
+      openProjects_AnalyticalApps: true,
+      openProjects_DataAnalysis: false,
+      openProjects_WebDev: false,
+      openProjects_MachineLearning: false,
+    });
+  }
+  toggleContainerDA() { // Data Analysis
+    this.setState({ 
+      openProjects_AnalyticalApps: false,
+      openProjects_DataAnalysis: true,
+      openProjects_WebDev: false,
+      openProjects_MachineLearning: false,
+    });
+  }
+  toggleContainerWD() { // Web Dev
+    this.setState({ 
+      openProjects_AnalyticalApps: false,
+      openProjects_DataAnalysis: false,
+      openProjects_WebDev: true,
+      openProjects_MachineLearning: false,
+    });
+  }
+  toggleContainerML() { // Machine Learning Projects
+    this.setState({
+      openProjects_AnalyticalApps: false,
+      openProjects_DataAnalysis: false,
+      openProjects_WebDev: false,
+      openProjects_MachineLearning: true,
+    })
+  }
 
   // The function generates a field with cards with information from state
   createProjectsCards(projects) {
