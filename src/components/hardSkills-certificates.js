@@ -12,7 +12,7 @@ class HardSkillsCertificates extends React.Component {
         {
           name: "Scientific Computing with Python",
           link: "https://freecodecamp.org/certification/jakubpyt/scientific-computing-with-python-v7",
-          pic: "https://lh3.googleusercontent.com/iaSgMN0BLeGUEdOslax0MCbG3l1WbCkB4o689lvC0hxVqADYzZJeQI8hKONWUi4kg-HpHq9t2ledyL9tiwmbGiwRHa124t4nX1cD-K9BzHillay-xra-NT0L37rNslqMKwTxIfySRg=w2400"
+          from: "freeCodeCamp"
         },
         {
           name: "Intermediate Python",
@@ -58,6 +58,11 @@ class HardSkillsCertificates extends React.Component {
           link: "https://www.sololearn.com/certificates/course/en/16942149/1060/landscape/png",
           from: "SoloLearn"
         },
+        {
+          name: "SQL dla początkujących - PostgreSQL",
+          link: "https://www.udemy.com/certificate/UC-68579b7b-852d-4e4a-b8a7-87a3adec8aff/",
+          from: "Udemy"
+        }
       ],
       certificatesGit: [
         {
@@ -73,6 +78,11 @@ class HardSkillsCertificates extends React.Component {
           from: "Udemy"
         },
         {
+          name: "Python Flask - aplikacje webowe",
+          link: "https://www.udemy.com/certificate/UC-3af1883e-740b-4718-a2bd-458cc982d10e/",
+          from: "Udemy"
+        },
+        {
           name: "HTML",
           link: "https://www.sololearn.com/Certificate/1014-16942149/jpg/",
           from: "SoloLearn"
@@ -83,12 +93,37 @@ class HardSkillsCertificates extends React.Component {
           from: "SoloLearn"
         },
         {
+          name: "Responsive Web Design",
+          link: "https://www.sololearn.com/Certificate/1162-16942149/jpg",
+          from: "SoloLearn"
+        },
+        {
           name: "JavaScript",
           link: "https://www.sololearn.com/Certificate/1014-16942149/jpg/",
           from: "SoloLearn"
         },
+        {
+          name: "jQuery",
+          link: "https://www.sololearn.com/Certificate/1082-16942149/jpg",
+          from: "SoloLearn"
+        },
+        {
+          name: "React + Redux",
+          link: "https://www.sololearn.com/Certificate/1097-16942149/jpg",
+          from: "SoloLearn"
+        }
       ],
       certificatesDataScience: [
+        {
+          name: "Python for Data Science",
+          link: "https://www.sololearn.com/certificates/course/en/16942149/1161/landscape/png",
+          from: "SoloLearn"
+        },
+        {
+          name: "Pandas",
+          link: "https://www.kaggle.com/learn/certification/jakubpyt/pandas",
+          from: "Kaggle"
+        },
         {
           name: "Data Science",
           link: "https://www.sololearn.com/certificates/course/en/16942149/1093/landscape/png",
@@ -102,8 +137,13 @@ class HardSkillsCertificates extends React.Component {
         {
           name: "Data Analysis with Python",
           link: "https://freecodecamp.org/certification/jakubpyt/data-analysis-with-python-v7",
-          pic: "https://lh3.googleusercontent.com/XC2bYKm7mDkoMpw-at7h-Tz_HpOI6V22gZlj12F6WqCWF93o_g5kTEi3G6CNDV5vzawg_TZChcivCr8S8ZseaYV4mpAJjX-BZnd8FiI1l6k1r86GcJ_EbkTSKz4hmhjb8KHAn4pLKA=w2400"
+          from: "freeCodeCamp"
         },
+        {
+          name: "Data Visualization",
+          link: "https://www.kaggle.com/learn/certification/jakubpyt/data-visualization",
+          from: "Kaggle"
+        }
       ],
     };
   }
