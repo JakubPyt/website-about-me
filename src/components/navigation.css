@@ -43,11 +43,11 @@
 /* Every single element of navbar */
 .navbarItem{
     margin: 1em 1em 0.5em 1em;
-    color: gray;
+    color: rgb(128, 128, 128);
     text-decoration: none;
 }
 .navbarItem:hover{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }

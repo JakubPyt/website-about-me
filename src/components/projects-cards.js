@@ -7,7 +7,7 @@ class ProjectsCards extends React.Component {
   constructor(props) {
     super(props);
     // Here is all information about the projects
-    // The order matters
+    // The order matters inside category
     // If you want to add a new project just add an object with the arguments below
     this.state = {
       // =========================
@@ -40,10 +40,10 @@ class ProjectsCards extends React.Component {
           link_git: "https://github.com/JakubPyt/Predict_Health_Costs",
         },
       ],
-      // ================================
-      // Analytical Applications Projects
-      // ================================
-      projectsAnalyticalApps: [
+      // ===============================
+      // Computer Applications Projects
+      // ===============================
+      projectsComputerApps: [
         {
           title: "Budget App",
           star: true,
@@ -235,8 +235,8 @@ class ProjectsCards extends React.Component {
   // This function switch which type of projects has to be displayed
   renderSwitch(type) {
     switch (type) {
-      case "AA": // Analytical Applications
-        return this.createCards(this.state.projectsAnalyticalApps);
+      case "CA": // Analytical Applications
+        return this.createCards(this.state.projectsComputerApps);
       case "DA": // Data Analysis
         return this.createCards(this.state.projectsDataAnalysis);
       case "WD": // Web Dev

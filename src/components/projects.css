@@ -9,6 +9,10 @@
     color: var(--main-color);
     text-align: center;
 }
+.project-comment{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 /* ============== */
 /* Switch Buttons */
 /* ============== */
@@ -23,14 +27,18 @@
 .switchButton{
     background-color: var(--main-color);
     border: var(--main-color);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 0.5em 2em 0.5em 2em;
     border-radius: 5px 5px 0 0 ;
     margin: 0.5em 0em 0em 0.5em;
 
 }
+.switchButtonActive{
+    background-color: var(--second-color);
+    color: rgb(255, 255, 255);
+}
 .switchButton:hover{
     background-color: var(--second-color);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
