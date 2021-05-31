@@ -17,8 +17,8 @@ class ProjectsCards extends React.Component {
         {
           title: "Tabular Playground Series-Apr 2021",
           star: true,
-          mainTech: "Python, MLPClassifier",
-          modules: ["Sklearn", "Pandas", "Seaborn", "Plotly", "Matplotlib"],
+          mainTech: "Python",
+          modules: ["Sklearn - MLPClassifier", "Pandas", "Seaborn", "Plotly", "Matplotlib"],
           tools: ["Google Colaboratory", "Github"],
           description:
             'Projekt stworzony w ramach kwietniowego (2021) konkursu na stronie Kaggle. W ramach projektu zająłem się problemem klasyfikacji binarnej. Stworzony przeze mnie model osiągnął dokładność na poziomie 0,79813. Zapraszam do obejrzenia projektu w Google Colab, pod przyciskiem "Uruchom" ;) .',
@@ -30,8 +30,8 @@ class ProjectsCards extends React.Component {
         {
           title: "Predict Health Costs",
           star: false,
-          mainTech: "Python, Sequential",
-          modules: ["Tensorflow", "Pandas", "Seaborn", "Matplotlib"],
+          mainTech: "Python",
+          modules: ["Tensorflow - Sequential", "Pandas", "Seaborn", "Matplotlib"],
           tools: ["Google Colaboratory", "Github"],
           description:
             'Projekt stworzony w ramach kursu "Machine Learning with Python" na stronie freecodecamp.org. W ramach projektu moim celem była predykcja kosztów leczenia. Zapraszam do obejrzenia projektu na Google Colab(przycisk Uruchom).',
@@ -91,6 +91,33 @@ class ProjectsCards extends React.Component {
             "Strona stworzona w celu zebrania wszystkich moich projektów i osiągnięć programistycznych w jednym miejscu. ",
           link_run: "",
           link_git: "https://github.com/JakubPyt/website-about-me",
+        },
+        {
+          title: "Financial App",
+          star: true,
+          mainTech: "Python(Flask), SQL(PostgreSQL)",
+          modules: [
+            "Flask",
+            "Flask-SQLAlchemy",
+            "Pandas",
+            "Plotly-express",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "jQuery",
+            "SQL"
+          ],
+          tools: [
+            "Visual Studio Code",
+            "PostgreSQL",
+            "Git",
+            "Github",
+          ],
+          description:
+            "Marzysz o bogactwie? Możesz je osiągnąć, jeśli tylko będziesz dobrze zarządzał finansami! A ta aplikacja może Ci to ułatwić! Księga wydatków i wpłat, wizualizacje stanu konta - to podstawowe funkcje tej aplikacji. Aplikacja stworzona w dwóch wersjach, wyglądowo niemal identycznych, ale różniących się back-endem. Wersja 1: Demonstracyjna (pod przyciskiem Uruchom) - oparta o pandas DataFrame z wgranymi bazowo przykładowymi danymi, które możesz edytować, usuwać i dodawać swoje. Wersja 2: Jak mebel z ikei, czyli do złożenia samodzielnie. W repozytorium na Githubie(pod przyciskiem 'Zobacz na Githubie') jest pełen opis co krok po kroku trzeba zrobić. Ta wersja oparta jest o połączenie z bazą danych PostgreSQL za pomocą SQLAlchemy. UWAGA! Wersja spod przycisku uruchom może 'budzić się' nawet kilka minut! ",
+          link_run: "https://replit.com/@JakubPyt/Financial-App-demo#main.py",
+          link_git: "https://github.com/JakubPyt/Financial-App-withDB"
         },
         {
           title: "Tribute Page",
