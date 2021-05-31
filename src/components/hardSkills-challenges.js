@@ -57,7 +57,7 @@ class HardSkillsChallenges extends React.Component {
       challengesDataScience: [
         {
           website: "SoloLearn",
-          solvedChallenges: 12,
+          solvedChallenges: 15,
         },
       ],
     };
