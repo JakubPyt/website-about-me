@@ -122,8 +122,8 @@ class ProjectsCards extends React.Component {
         {
           title: "Tribute Page",
           star: false,
-          mainTech: "HTML, CSS",
-          modules: [],
+          mainTech: "HTML",
+          modules: ["CSS"],
           tools: ["Visual Studio Code", "Github", "Github Pages"],
           description:
             'Projekt stworzony podczas kursu "Responsive Web Design" na stronie freecodecamp.org. W ramach projektu stworzyłem stronę hołdu dla Alberta Einsteina. Przycisk uruchom przeniesie Cię na tą stronę w GitHub Pages. ',
