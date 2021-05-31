@@ -1,7 +1,6 @@
 /* Styles in general for card about challenges */
 .cardAboutChallenges{
-    width: 15em;
-    margin: 1em 0.3em 1em 1.7em;
+    margin: 1rem;
 }
 /* Styles for top of the card about challenges */
 .titleCardAboutChallenges{
