@@ -8,16 +8,16 @@ class Projects extends React.Component {
     this.state = {
       // This elements of state switch displayed card with projects
       openProjects_MachineLearning: true,
-      openProjects_AnalyticalApps: false,
+      openProjects_ComputerApps: false,
       openProjects_DataAnalysis: false,
       openProjects_WebDev: false,
     };
   }
 
   // Next four functions switch displayed card
-  toggleContainerAA() { // Analytical Apps
+  toggleContainerCA() { // Analytical Apps
     this.setState({
-      openProjects_AnalyticalApps: true,
+      openProjects_ComputerApps: true,
       openProjects_DataAnalysis: false,
       openProjects_WebDev: false,
       openProjects_MachineLearning: false,
@@ -25,7 +25,7 @@ class Projects extends React.Component {
   }
   toggleContainerDA() { // Data Analysis
     this.setState({
-      openProjects_AnalyticalApps: false,
+      openProjects_ComputerApps: false,
       openProjects_DataAnalysis: true,
       openProjects_WebDev: false,
       openProjects_MachineLearning: false,
@@ -33,7 +33,7 @@ class Projects extends React.Component {
   }
   toggleContainerWD() { // Web Dev
     this.setState({
-      openProjects_AnalyticalApps: false,
+      openProjects_ComputerApps: false,
       openProjects_DataAnalysis: false,
       openProjects_WebDev: true,
       openProjects_MachineLearning: false,
@@ -41,7 +41,7 @@ class Projects extends React.Component {
   }
   toggleContainerML() { // Machine Learning Projects
     this.setState({
-      openProjects_AnalyticalApps: false,
+      openProjects_ComputerApps: false,
       openProjects_DataAnalysis: false,
       openProjects_WebDev: false,
       openProjects_MachineLearning: true,
@@ -83,18 +83,18 @@ class Projects extends React.Component {
             Machine Learning
           </button>
           <button
-            onClick={this.toggleContainerAA.bind(this)}
-            className={`switchButton ${this.state.openProjects_AnalyticalApps ? 
-              "switchButtonActive" : "" } `}
-          >
-            Aplikacje analityczne
-          </button>
-          <button
             onClick={this.toggleContainerDA.bind(this)}
             className={`switchButton ${this.state.openProjects_DataAnalysis ? 
               "switchButtonActive" : "" } `}
           >
             Analiza danych i wizualizacja
+          </button>
+          <button
+            onClick={this.toggleContainerCA.bind(this)}
+            className={`switchButton ${this.state.openProjects_ComputerApps ? 
+              "switchButtonActive" : "" } `}
+          >
+            Aplikacje na komputer
           </button>
           <button
             onClick={this.toggleContainerWD.bind(this)}
@@ -108,8 +108,8 @@ class Projects extends React.Component {
         {/* When value of state element is true, ternary operators below call render container function with them category.
             Next - from render container function is returned place for cards with cards from specific category.  
         */}
-        {this.state.openProjects_AnalyticalApps === true
-          ? this.renderContainer("AA")
+        {this.state.openProjects_ComputerApps === true
+          ? this.renderContainer("CA")
           : null}
 
         {this.state.openProjects_DataAnalysis === true
