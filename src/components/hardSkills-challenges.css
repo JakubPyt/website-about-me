@@ -4,7 +4,7 @@
 }
 /* Styles for top of the card about challenges */
 .titleCardAboutChallenges{
-    color: var(--main-color);
+    color: rgba(172, 255, 47, 0.548);
     font-family: var(--main-font);
     background-color: var(--main-bg-color);
     padding: 1em;

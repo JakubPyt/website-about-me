@@ -9,7 +9,7 @@
 }
 /* Header inside above div */
 .title-certificates{
-    color: var(--main-color);
+    color: rgba(172, 255, 47, 0.548);
     padding: 1rem 1rem 0 1rem;
 }
 /* Button for each certificate */

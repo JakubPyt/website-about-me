@@ -38,7 +38,7 @@
     background-color: var(--main-bg-color);
     border: 3px solid var(--main-color);
     border-radius: 20px;
-    color: var(--main-color);
+    color: rgba(172, 255, 47, 0.548);
     display: flex;
     transition: .2s;
 }
