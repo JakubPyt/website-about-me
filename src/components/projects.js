@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { ProjectsCards } from "./projects-cards";
-import {AiFillStar} from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -13,6 +13,7 @@ class Projects extends React.Component {
       openProjects_WebDev: false,
     };
   }
+
   // Next four functions switch displayed card
   toggleContainerAA() { // Analytical Apps
     this.setState({
@@ -23,7 +24,7 @@ class Projects extends React.Component {
     });
   }
   toggleContainerDA() { // Data Analysis
-    this.setState({ 
+    this.setState({
       openProjects_AnalyticalApps: false,
       openProjects_DataAnalysis: true,
       openProjects_WebDev: false,
@@ -31,7 +32,7 @@ class Projects extends React.Component {
     });
   }
   toggleContainerWD() { // Web Dev
-    this.setState({ 
+    this.setState({
       openProjects_AnalyticalApps: false,
       openProjects_DataAnalysis: false,
       openProjects_WebDev: true,
@@ -44,12 +45,12 @@ class Projects extends React.Component {
       openProjects_DataAnalysis: false,
       openProjects_WebDev: false,
       openProjects_MachineLearning: true,
-    })
+    });
   }
 
   // This function is called when element from state has value 'true'
-  // This function call projects-cards component, 
-  // which return place for cards with cards from right category
+  // This function call projects-cards component,
+  // which return place for cards with cards from chosen category
   renderContainer(typeContainer) {
     return (
       <div>
@@ -69,18 +70,37 @@ class Projects extends React.Component {
             Toggle container function change state for category to true, and for other categories to false
         */}
         <h1 className="projectsHeader">Moje projekty</h1>
-        <p className="project-comment">Projekty z <AiFillStar /> to te projekty, z których jestem najbardziej dumny.</p>
+        <p className="project-comment">
+          Projekty z <AiFillStar /> to te projekty, z których jestem najbardziej dumny.
+        </p>
         <div className="switchButtons">
-          <button onClick={this.toggleContainerML.bind(this)} className="switchButton">
+          {/* Button with category, which has value true in state gets class 'active' */}
+          <button
+            onClick={this.toggleContainerML.bind(this)}
+            className={`switchButton ${this.state.openProjects_MachineLearning ? 
+              "switchButtonActive" : "" } `}
+          >
             Machine Learning
           </button>
-          <button onClick={this.toggleContainerAA.bind(this)} className="switchButton">
+          <button
+            onClick={this.toggleContainerAA.bind(this)}
+            className={`switchButton ${this.state.openProjects_AnalyticalApps ? 
+              "switchButtonActive" : "" } `}
+          >
             Aplikacje analityczne
           </button>
-          <button onClick={this.toggleContainerDA.bind(this)} className="switchButton">
+          <button
+            onClick={this.toggleContainerDA.bind(this)}
+            className={`switchButton ${this.state.openProjects_DataAnalysis ? 
+              "switchButtonActive" : "" } `}
+          >
             Analiza danych i wizualizacja
           </button>
-          <button onClick={this.toggleContainerWD.bind(this)} className="switchButton">
+          <button
+            onClick={this.toggleContainerWD.bind(this)}
+            className={`switchButton ${this.state.openProjects_WebDev 
+              ? "switchButtonActive" : ""} `}
+          >
             Web development
           </button>
         </div>
@@ -103,7 +123,6 @@ class Projects extends React.Component {
         {this.state.openProjects_MachineLearning === true
           ? this.renderContainer("ML")
           : null}
-          
       </div>
     );
   }

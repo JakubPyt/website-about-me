@@ -33,6 +33,10 @@
     margin: 0.5em 0em 0em 0.5em;
 
 }
+.switchButtonActive{
+    background-color: var(--second-color);
+    color: rgb(255, 255, 255);
+}
 .switchButton:hover{
     background-color: var(--second-color);
     color: rgb(255, 255, 255);
