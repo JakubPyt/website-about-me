@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 import "./hardSkills-certificates.css";
 
 class HardSkillsCertificates extends React.Component {
@@ -126,23 +125,28 @@ class HardSkillsCertificates extends React.Component {
     };
   }
 
-  //Function generate div with certificates cards by type
-  createCards(certificates) {
-    return (
-      <div className="placeForCertificates">
+  //Method generate div with certificates cards by type
+  createCards(certificates){
+    return(
+      // In div below will be all certificates from choosen type
+      <div className="placeForCertificates"> 
+        {/* Div includes title and list of certificates */}
+        <h3 className="title-certificates">Certyfikaty</h3>
+        <ul>
         {certificates.map((cert) => (
-          <a key={cert.name} href={cert.link} className="aCertificate">
-            <Card className="certificateCard" key={cert.name}>
-              <Card.Img src={cert.pic} variant="top" />
-              <Card.Body>
-                <Card.Title>{cert.name}</Card.Title>
-              </Card.Body>
-            </Card>
-          </a>
+          <li key={cert.name}>
+            <div  className="certificate-div">
+              {/* Each item of list includes inscription about certificate and button to show confirmation */}
+              <button className='btn-confirm-cert' href={cert.link} >Otwórz potwierdzenie</button>
+              <p className="p-cert"> {">>>"} (sololearn) - {cert.name}</p>
+            </div>
+          </li>
         ))}
+        </ul>
       </div>
-    );
+    )
   }
+
   //Func call createCards func by type, to display it
   renderSwitch(type) {
     switch (type) {

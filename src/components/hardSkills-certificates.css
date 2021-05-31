@@ -1,28 +1,29 @@
-/* Styles for div inside which are all certificates by type */
+/* Styles for div inside which are including all certificates from chosen type */
 .placeForCertificates{
     display: flex;
-    flex-wrap: wrap;
-    padding: 0em;
-}
-/* Styles for each single card with certificate */
-.certificateCard{
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0.2rem 0;
     background-color: var(--main-bg-color);
+    border-radius: 20px;
+}
+/* Header inside above div */
+.title-certificates{
     color: var(--main-color);
-    font-family: var(--main-font);
-    max-width: 9em;
-    margin: 1em 0.3em 1em 1.7em;
-    cursor: pointer;
+    padding: 1rem 1rem 0 1rem;
 }
-.certificateCard:hover{
-    background-color: var(--third-bg-color);
+/* Button for each certificate */
+.btn-confirm-cert{
+    display: inline;
+    margin: 0;
 }
-/* A should fit for certificate card and not show it styles */
-.aCertificate{
-    text-decoration: none;
-    height: fit-content;
-    width: fit-content;
-    cursor: default;
+/* Description for each certificates */
+.p-cert{
+    display: inline;
+    padding: 0 1rem 0 0;
 }
-.aCertificate:hover{
-    text-decoration: none;
+/* Gruop items: btn-confirm-cert + p-cert */
+.certificate-div{
+    display: inline;
+    color: white;
 }
