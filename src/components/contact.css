@@ -1,6 +1,6 @@
 /* Styles for main div inside which is entire component */
 .contactDiv{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1em;
     font-family: var(--main-font);
@@ -25,7 +25,7 @@
 /* Styles for every single circle, inside which there is icon of profile */
 /* Size of icons is in contact.js in func createProfilesIcons */
 .aOuterCircle{
-    color: black; /* Color of icons */
+    color: rgb(0, 0, 0); /* Color of icons */
     background: linear-gradient(0deg,  #fff,rgb(192, 192, 192)); /* Color of circle */
     border-radius: 50%;
     box-shadow: 0 10px 15px rgba(228, 227, 227, 0.5);

@@ -14,5 +14,5 @@
     background-color: var(--main-bg-color);
     font-family: var(--main-font);
     padding: 0;
-    color: white;
+    color: rgb(255, 255, 255);
 }
