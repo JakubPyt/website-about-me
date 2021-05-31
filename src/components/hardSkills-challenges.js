@@ -74,8 +74,8 @@ class HardSkillsChallenges extends React.Component {
             {challengesAbout.map((challenges) => (
               <li key={challenges.name}>
                 <b>{challenges.website}</b>: {challenges.solvedChallenges}{" "}
-                <br />
-                {challenges.type != null ? challenges.type : null}
+                
+                {challenges.type != null ? `- `+ challenges.type : null}
               </li>
             ))}
           </ul>
