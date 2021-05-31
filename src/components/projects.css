@@ -9,6 +9,10 @@
     color: var(--main-color);
     text-align: center;
 }
+.project-comment{
+    color: white;
+    text-align: center;
+}
 /* ============== */
 /* Switch Buttons */
 /* ============== */

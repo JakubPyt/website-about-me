@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { ProjectsCards } from "./projects-cards";
+import {AiFillStar} from "react-icons/ai";
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -67,8 +68,8 @@ class Projects extends React.Component {
             Buttons call toggle container function for them category
             Toggle container function change state for category to true, and for other categories to false
         */}
-        
         <h1 className="projectsHeader">Moje projekty</h1>
+        <p className="project-comment">Projekty z <AiFillStar /> to te projekty, z których jestem najbardziej dumny.</p>
         <div className="switchButtons">
           <button onClick={this.toggleContainerML.bind(this)} className="switchButton">
             Machine Learning
