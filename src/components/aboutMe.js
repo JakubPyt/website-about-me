@@ -30,9 +30,10 @@ const AboutMe = function () {
               <Card.Body>
                 <ul>
                   <li>Jestem Jakub.</li>
+                  <li>Najbardziej interesujące mnie dziedziny informatyki to Data Science oraz Web Development.</li>
                   <li>
                     Studiuję zaocznie w Warszawskiej Wyższej Szkole Informatyki,
-                    na kierunku Data Science (i to ta dziedzina informatyki interesuje mnie najbardziej).
+                    na kierunku Data Science.
                   </li>
                   <li>
                     Jestem absolwentem technikum informatycznego ze zdobytymi
