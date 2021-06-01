@@ -27,3 +27,6 @@
     display: inline;
     color: rgb(255, 255, 255);
 }
+.a-href-cert:hover{
+    text-decoration: none;
+}

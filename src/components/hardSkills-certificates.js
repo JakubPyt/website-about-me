@@ -160,7 +160,9 @@ class HardSkillsCertificates extends React.Component {
           <li key={cert.name}>
             <div  className="certificate-div">
               {/* Each item of list includes inscription about certificate and button to show confirmation */}
-              <button className='btn-confirm-cert' href={cert.link} >Otwórz potwierdzenie</button>
+              <a href={cert.link} className="a-href-cert">
+              <button className='btn-confirm-cert' >Otwórz potwierdzenie</button>
+              </a>
               <p className="p-cert"> {">>>"} ({cert.from}) - {cert.name}</p>
             </div>
           </li>
