@@ -59,8 +59,18 @@ class HardSkillsCertificates extends React.Component {
           from: "SoloLearn"
         },
         {
-          name: "SQL dla początkujących - PostgreSQL",
+          name: "PostgreSQL",
           link: "https://www.udemy.com/certificate/UC-68579b7b-852d-4e4a-b8a7-87a3adec8aff/",
+          from: "Udemy"
+        },
+        {
+          name: "Intro to SQL(BigQuery)",
+          link: "https://www.kaggle.com/learn/certification/jakubpyt/intro-to-sql",
+          from: "Kaggle"
+        },
+        {
+          name: "Big Data: Analiza danych przy użyciu SQL oraz BigQuery",
+          link: "https://www.udemy.com/certificate/UC-27d50908-c43a-40f0-98b3-51f0ac1ff664/",
           from: "Udemy"
         }
       ],
