@@ -71,7 +71,7 @@ class HardSkills extends React.Component {
                 <button onClick={this.toggleContainerDataScience.bind(this)} className="hardSkilsButton" > Data Science <BsClipboardData /> </button>
                 {this.state.openDataScience === true ? this.renderContainer("DataScience")  : null}
                 
-                <button onClick={this.toggleContainerDB.bind(this)} className="hardSkilsButton" > Bazy danych <FiDatabase /> </button>
+                <button onClick={this.toggleContainerDB.bind(this)} className="hardSkilsButton" > Bazy danych &amp; Big Data <FiDatabase /> </button>
                 {this.state.openDB === true ? this.renderContainer("Databases")  : null}
                 
                 <button onClick={this.toggleContainerWebDev.bind(this)} className="hardSkilsButton" > Web Development <GiSpiderWeb /> </button>
