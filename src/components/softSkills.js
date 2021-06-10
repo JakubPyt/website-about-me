@@ -38,9 +38,8 @@ const SoftSkills = function(){
                     <li>
                       Dowodzenie 16 osobową grupą młodzieżową od 2018 roku, razem
                       z którą przeprowadzaliśmy kilka znaczących projektów, takich
-                      jak remont domu dla starszej, ubogiej pani, dostarczanie paczek 
-                      kombatantom na święta, czy organizacja dwutygodniowego obozu dla 
-                      około 150 dzieci. Tą grupą wciąż dowodzę, a o naszych przedsięwzięciach 
+                      jak remont domu dla starszej, ubogiej pani czy dostarczanie paczek 
+                      kombatantom na święta. Tą grupą wciąż dowodzę, a o naszych przedsięwzięciach 
                       można doczytać na naszym instagramie: 
                     </li>
                   </ul>
