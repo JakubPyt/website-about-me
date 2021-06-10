@@ -15,7 +15,13 @@ class HardSkillsChallenges extends React.Component {
         },
         {
           website: "HackerRank",
-          solvedChallenges: 3,
+          type: 'Python',
+          solvedChallenges: 11,
+        },
+        {
+          website: "HackerRank",
+          type: 'Problem Solving',
+          solvedChallenges: 6,
         },
       ],
       challengesCsharp: [
@@ -34,12 +40,12 @@ class HardSkillsChallenges extends React.Component {
       ],
       challengesDB: [
         {
-          website: "Hacker Rank",
+          website: "HackerRank",
           type: "Ogólnie bazy danych",
           solvedChallenges: 16,
         },
         {
-          website: "Hacker Rank",
+          website: "HackerRank",
           type: "MS SQL",
           solvedChallenges: 9,
         },
@@ -58,6 +64,16 @@ class HardSkillsChallenges extends React.Component {
         {
           website: "SoloLearn",
           solvedChallenges: 15,
+        },
+        {
+          website: "HackerRank",
+          type: 'Statistics',
+          solvedChallenges: 7,
+        },
+        {
+          website: "HackerRank",
+          type: 'Artificial Intelligence',
+          solvedChallenges: 1,
         },
       ],
     };
