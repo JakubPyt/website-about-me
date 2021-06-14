@@ -40,6 +40,11 @@ class HardSkillsChallenges extends React.Component {
       ],
       challengesDB: [
         {
+          website: "Kaggle",
+          type: "BigQuery",
+          solvedChallenges: 22,
+        },
+        {
           website: "HackerRank",
           type: "Ogólnie bazy danych",
           solvedChallenges: 16,
