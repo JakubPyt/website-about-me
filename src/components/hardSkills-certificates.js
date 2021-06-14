@@ -64,6 +64,11 @@ class HardSkillsCertificates extends React.Component {
           from: "Udemy"
         },
         {
+          name: "Advanced SQL(BigQuery)",
+          link: "https://www.kaggle.com/learn/certification/jakubpyt/advanced-sql",
+          from: "Kaggle"
+        },        
+        {
           name: "Intro to SQL(BigQuery)",
           link: "https://www.kaggle.com/learn/certification/jakubpyt/intro-to-sql",
           from: "Kaggle"
